@@ -1,0 +1,157 @@
+set cartoon_oval_length=0.50
+set cartoon_oval_width=0.10
+set cartoon_rect_length=0.50
+set cartoon_rect_width=0.10
+set ribbon_width=3.0
+stereo walleye
+set orthoscopic
+set depth=0
+#set valence
+set line_smooth
+set stick_radius=0.15
+set sphere_quality=1
+run ~/svn/trunk/python_scripts/pymol_scripts/util.py
+run ~/svn/trunk/python_scripts/pymol_scripts/PackingMeasureUtils.py
+#run ~/svn/trunk/python_scripts/pymol_scripts/axes_cyl.py
+
+# # hide ev
+# # color white, elem C
+# color green , chain A and elem C
+# color cyan  , chain B and elem C
+# color purple, chain C and elem C
+# color yellow, chain D and elem C
+# # bond name NI and chain A, all within 2.5 of name NI and chain A
+# # bond name NI and chain B, all within 2.5 of name NI and chain B
+# # bond name NI and chain C, all within 2.5 of name NI and chain C
+# # bond name NI and chain D, all within 2.5 of name NI and chain D
+# # bond name NI and chain E, all within 2.5 of name NI and chain E
+# # bond name NI and chain F, all within 2.5 of name NI and chain F
+# # bond name NI and chain G, all within 2.5 of name NI and chain G
+# # bond name NI and chain H, all within 2.5 of name NI and chain H
+# # bond name NI and chain I, all within 2.5 of name NI and chain I
+# # bond name NI and chain J, all within 2.5 of name NI and chain J
+# # bond name NI and chain K, all within 2.5 of name NI and chain K
+# # bond name NI and chain L, all within 2.5 of name NI and chain L
+# # bond name NI and chain M, all within 2.5 of name NI and chain M
+# # bond name NI and chain N, all within 2.5 of name NI and chain N
+# # bond name NI and chain O, all within 2.5 of name NI and chain O
+# # bond name NI and chain P, all within 2.5 of name NI and chain P
+# # bond name NI and chain Q, all within 2.5 of name NI and chain Q
+# # bond name NI and chain R, all within 2.5 of name NI and chain R
+# # bond name NI and chain S, all within 2.5 of name NI and chain S
+# # bond name NI and chain T, all within 2.5 of name NI and chain T
+# # bond name NI and chain U, all within 2.5 of name NI and chain U
+# # bond name NI and chain V, all within 2.5 of name NI and chain V
+# # bond name NI and chain W, all within 2.5 of name NI and chain W
+# # bond name NI and chain X, all within 2.5 of name NI and chain X
+# show car
+# show lines, not hydro
+# show sticks, (resn BPY,NPD,HIS and not hydro)
+# show spheres, (resn RU,NI,PT)
+# #expandRadii 1.0, resn RU
+# hide ev, not (chain A,B,D,I,J,K,Q)
+
+# hide ev
+# show car
+# show sticks, resn BPY and not hydro
+# show sticks, (byres resn ALA within 7 of resn BPY and name CD1) and not hydro
+
+# unbond resn BPY, not resn BPY
+# hide ev
+# show lines, (name N,CA,C,O,CB)
+# show lines, (resn BPY)
+
+# # 
+# # # # 
+# # bond name ZN, all within 2.5 of name ZN
+# # show car
+# # # show sticks, resn BPY
+# # hide every, hydro
+# # # 
+# 
+# # 
+# # hide ev
+# # show car
+# # show sticks, resn TIA
+# # show sticks, resn BPY
+# # color yellow, elem C and (chain A,B,C)
+# # color green , elem C and (chain D,E,F)
+# # color red   , elem C and (chain G,H,I)
+# # color blue  , elem C and (chain J,K,L)
+# # color orange, elem C and (chain M,N,O)
+# # color white , elem C and (chain P,Q,R)
+# # color violet, elem C and (chain S,T,U)
+# # color brown , elem C and (chain V,W,X)
+# # hide ev, hydro
+# 
+# # 
+# # # for looking at dubois stuff
+# # #show lines
+# # #bond name NI, name HH within 3 of name NI
+# # bond name NI, name P
+# # show sticks
+# # show car
+# # hide every, hydro
+# # show spheres, name HH and resn NPP
+# # set sphere_quality=2
+# # hide car, ss 'L'
+# # 
+# # # show car
+# # show sticks
+# # # hide lines
+# # # hide every, resn XXX
+# # # hide every, hydro
+# # # hide every, name VSG
+# # # hide every, name SG
+# # # hide every, name VHG
+# # # bond_zn all
+#  
+hide ev, resn CAV
+show spheres, resn CAV
+useTempRadii  resn CAV
+# set sphere_transparency=0.8
+# # show sticks, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
+# # color red, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
+# # select resn CAV
+# 
+# # hide every
+# # show lines
+# # 
+# 
+# # show lines
+# # show sticks, het
+# # color white, elem C
+# # color orange, het and elem C
+
+
+# hide ev, (name OVL1,OVL2,OVU1)
+# hide ev, resn XXX
+# hide ev, (name HH,HG)
+# unbond resn PYR and not name VO, not resn PYR
+# unbond resn HSC, not resn HSC
+# color skyblue, chain A and elem C
+# color green, chain B and elem C
+# show sticks, (resn HIS,ZN,HSC)
+# color white, resn HSC and elem C
+# hide ev, hydro
+# # hide ev, resn HSC
+# hide ev, hydro
+# 
+# show car
+# # hide ev, (chain C,D,E,F)
+# # run /Users/sheffler/pymol_scripts/axes.py
+# # zoom
+# 
+# color green , (chain A,B,C) and elem C
+# color cyan  , (chain D,E,F) and elem C
+# color purple, (chain G,H,I) and elem C
+# color yellow, (chain J,K,L) and elem C
+# 
+#  
+# 
+# 
+
+bond name P and chain A, name C9 and chain B
+bond name P and chain B, name C9 and chain A
+bond name P and chain C, name C9 and chain D
+bond name P and chain D, name C9 and chain C
