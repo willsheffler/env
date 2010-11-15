@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>utility::vector1&lt;packing_ns::CavityBall&gt;::iterator</string>
+	<key>name</key>
+	<string>veccb iter</string>
+	<key>scope</key>
+	<string>source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>veccbi</string>
+	<key>uuid</key>
+	<string>190B42AB-BDB7-4524-8513-43687066DB27</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.def( ${2:"$1"} , ${4:&amp;${3:function_name}} ${5:, copy_policy() })
+$0</string>
+	<key>name</key>
+	<string>.def</string>
+	<key>tabTrigger</key>
+	<string>.def</string>
+	<key>uuid</key>
+	<string>2BB99920-9624-40D3-BF26-B1B5E616B4A3</string>
+</dict>
+</plist>

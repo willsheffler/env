@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>utility::vector1&lt;numeric::xyzVector_float&gt; $0</string>
+	<key>name</key>
+	<string>vxyz</string>
+	<key>scope</key>
+	<string>source.c++, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>vxyz</string>
+	<key>uuid</key>
+	<string>2D6C967C-27B5-4C92-946B-2CB09B87940C</string>
+</dict>
+</plist>

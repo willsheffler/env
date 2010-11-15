@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/python
+import sys
+cmd = sys.stdin.read() 
+if cmd.count("\n") == 0:
+    cmd = cmd.strip()
+if not cmd.startswith("print") and cmd.count("\n") == 0:
+    cmd = "tmp = "+cmd
+    exec cmd 
+    if type(tmp) == type([]):
+	    print "\n".join([str(x) for x in tmp])
+    elif type(tmp) == type({}):
+	    print "\n".join([str(x) for x in tmp.items()])
+    else:
+	    print tmp
+else:
+    exec cmd
+    
+#!/usr/bin/python
+#import sys,StringIO
+#buf = StringIO.StringIO()
+#print "start"
+#SAVEOUT = sys.stdout
+#SAVEOUT.write("test")
+#sys.stdout = buf
+#eval( sys.stdin.read() )
+#sys.stdout = SAVEOUT
+#SAVEOUT.write(buf.getvalue())
+</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^E</string>
+	<key>name</key>
+	<string>Run Selection as Python and Replace</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>A6CA8E49-78AF-421D-98F2-9D114B7370C2</string>
+</dict>
+</plist>
