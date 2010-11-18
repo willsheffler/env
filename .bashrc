@@ -101,3 +101,17 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+function buildapp {
+    cmd1="g++ -o build/src/release/linux/2.6/64/x86/gcc/apps/pilot/will/$1.o -c -std=c++98 -pipe -ffor-scope -W -Wall -pedantic -Wno-long-long -O3 -ffast-math -funroll-loops -finline-functions -finline-limit=20000 -s -Wno-unused-variable -DNDEBUG -Isrc -Iexternal/include -Isrc/platform/linux/64/gcc -Isrc/platform/linux/64 -Isrc/platform/linux -Iexternal/boost_1_38_0 -I/usr/local/include -I/usr/include src/apps/pilot/will/$1.cc"
+    cmd2="g++ -o build/src/release/linux/2.6/64/x86/gcc/$1.linuxgccrelease -Wl,-rpath=/home/sheffler/git/pnnl_mini/build/src/release/linux/2.6/64/x86/gcc/ build/src/release/linux/2.6/64/x86/gcc/apps/pilot/will/$1.o -Llib -Lexternal/lib -Lbuild/src/release/linux/2.6/64/x86/gcc -Lsrc -L/usr/local/lib -L/usr/lib -ldevel -lprotocols -lcore.1 -lcore.2 -lcore.3 -lcore.4 -lcore.5 -lbasic -lnumeric -lutility -lObjexxFCL -lz"
+    echo $cmd1 '&&' $cmd2
+    $cmd1 && $cmd2
+}
+
+function buildappdbg {
+    cmd1="g++ -o build/src/debug/linux/2.6/64/x86/gcc/apps/pilot/will/$1.o -c -std=c++98 -pipe -ffor-scope -W -Wall -pedantic -Wno-long-long -O0 -g -ggdb -ffloat-store -Isrc -Iexternal/include -Isrc/platform/linux/64/gcc -Isrc/platform/linux/64 -Isrc/platform/linux -Iexternal/boost_1_38_0 -I/usr/local/include -I/usr/include src/apps/pilot/will/$1.cc"
+    cmd2="g++ -o build/src/debug/linux/2.6/64/x86/gcc/$1.linuxgccdebug -Wl,-rpath=/home/sheffler/git/pnnl_mini/build/src/debug/linux/2.6/64/x86/gcc/ build/src/debug/linux/2.6/64/x86/gcc/apps/pilot/will/$1.o -Llib -Lexternal/lib -Lbuild/src/debug/linux/2.6/64/x86/gcc -Lsrc -L/usr/local/lib -L/usr/lib -ldevel -lprotocols -lcore.1 -lcore.2 -lcore.3 -lcore.4 -lcore.5 -lbasic -lnumeric -lutility -lObjexxFCL -lz"
+    echo $cmd1 '&&' $cmd2
+    $cmd1 && $cmd2
+}
