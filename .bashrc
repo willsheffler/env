@@ -5,7 +5,7 @@ source ~/.alias      # figure out how to do this right
 source ~/.minirosetta
 
 export SVN="https://svn.rosettacommons.org/source/"
-export PATH=/opt/local/bin:/Applications:/usr/local/bin:~/scripts:/usr/local/mysql/bin:/opt/local/sbin:$PATH
+export PATH=/opt/local/bin:/Applications:/usr/local/bin:/usr/local/sbin:~/scripts:/usr/local/mysql/bin:/opt/local/sbin:$PATH
 export PS1="\h:\W/> " 
 
 function buildappdbg {
