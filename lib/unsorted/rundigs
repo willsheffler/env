@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+import sys,os
+
+bg = ""
+args = sys.argv[1:]
+if sys.argv[1] == '-f': 
+	bg = "-f"
+	args = sys.argv[2:]
+
+for i in range(1,33):	
+	print "dig%i"%i+":"+" "*(i<10), os.popen("ssh %s dig%i '%s'"%(bg,i," ".join(args))).read(),

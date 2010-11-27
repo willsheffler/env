@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import sys
+
+print """universe     = vanilla
+Notify_user  = willsheffler@gmail.com
+notification = Error
+Log          = condorscript.log
+Executable   = %s
+GetEnv       = True
+
+Log = log.log""" % sys.argv[1]

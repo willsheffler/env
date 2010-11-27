@@ -1,0 +1,67 @@
+#!/usr/bin/perl
+##
+## Copyright 2002, University of Washington, the Baker Lab, and Dylan Chivian.
+##   This document contains private and confidential information and its
+##   disclosure does not constitute publication.  All rights are reserved by
+##   University of Washington, the Baker Lab, and Dylan Chivian, except those
+##   specifically granted by license.
+##
+##  Initial Author: Dylan Chivian (dylan@lazy8.com)
+##  $Revision: 1.1.1.1 $
+##  $Date: 2003/09/05 01:47:28 $
+##  $Author: dylan $
+##
+###############################################################################
+
+
+if ($#ARGV != 2) {
+	print STDERR "usage: $0 <pdbfile> <axis> <trans(ang)>\n";
+	exit -1;
+}
+$pdbfile = shift @ARGV;
+$axis    = shift @ARGV;
+$trans   = shift @ARGV;
+
+open (PDB, $pdbfile);
+while (<PDB>) {
+	if (! /^ATOM/) {
+		push (@buf, $_);
+		next;
+	}
+	$atom = substr ($_, 13, 3);
+	if ($atom !~ /^H/) {
+		$x = substr ($_, 30, 8);
+		$y = substr ($_, 38, 8);
+		$z = substr ($_, 46, 8);
+		
+		substr ($_, 30, 8) = sprintf ("%8.3f", $x+$trans)  if ($axis =~ /^X/i);
+		substr ($_, 38, 8) = sprintf ("%8.3f", $y-$trans)  if ($axis =~ /^Y/i);
+		substr ($_, 46, 8) = sprintf ("%8.3f", $z-$trans)  if ($axis =~ /^Z/i);
+	}
+	push (@buf, $_);
+}
+close (PDB);
+
+
+print @buf;
+exit 0;
+
+########
+# subs #
+########
+
+sub rotate {
+	local ($rotmat, @cart) = @_;
+	local @out = (0, 0, 0);
+	my ($i, $j);
+	for ($i=0; $i < 3; ++$i) {
+		for ($j=0; $j < 3; ++$j) {
+			$out[$i] += $rotmat->[$i]->[$j] * $cart[$j];
+		}
+	}
+	return @out;
+}
+
+#######
+# end #
+#######

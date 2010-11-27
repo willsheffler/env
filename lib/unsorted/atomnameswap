@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+
+import sys,os
+
+swaps = [x.split() for x in open(sys.argv[1]).readlines()]
+
+for fn in sys.argv[2:]:
+	s = open(fn).read()
+	for frm,to in swaps:
+		while len(to ) < len(frm): to  = " "+to
+		while len(frm) < len(to ): frm = frm+" "
+		s = s.replace(" %s "%frm,"$%s$"%to)
+	for frm,to in swaps:
+		while len(to ) < len(frm): to  = " "+to
+		while len(frm) < len(to ): frm = frm+" "
+		s = s.replace("$%s$"%to," %s "%to)
+	x = fn.rfind(".")
+	pref = fn[:x]
+	suff = fn[x:]
+	o = open(pref+"_renamed"+suff,"w")
+	o.write(s)
+	
