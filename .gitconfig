@@ -1,0 +1,16 @@
+[user]
+	name = William Sheffler
+	email = will@sheffler.me
+[alias]
+	funcdiff = !sh -c \"git show \\\"\\$1:\\$3\\\" | sed -n \\\"/^[^ \\t].*\\$4(/,/^}/p\\\" > .tmp1 &&\n        git show \\\"\\$2:\\$3\\\" | sed -n \\\"/^[^ \\t].*\\$4(/,/^}/p\\\" > .tmp2 &&\n        git diff --no-index .tmp1 .tmp2\"
+	sortdiff = !sh -c 'git diff "$@" | grep "^[+-]" | sort --key=1.2 | uniq -u -s1'
+    edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; mate `f`"
+    add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    who = shortlog -s --
+	cq = commit -a -m
