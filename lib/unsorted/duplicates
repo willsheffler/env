@@ -1,0 +1,24 @@
+#!/usr/bin/python
+import sys,os
+
+if len(sys.argv) < 2:
+    print "usage: duplicates <file1> <file2>..."
+
+
+for file in sys.argv[1:]:
+    list = [line.strip() for line in open(file).readlines()]
+    dict = {}
+    for line in list:
+	if line in dict:
+	    dict[line] += 1
+	else:
+	    dict[line] = 1
+
+    print "DUPLICATES in ",file,":"
+    dup = False
+    for key in dict:
+	if dict[key] > 1:
+	    print file+":", dict[key], key
+	    dup = True
+    if not dup:
+	print "NONE!"

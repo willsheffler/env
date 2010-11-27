@@ -1,0 +1,35 @@
+select all
+wireframe off
+backbone 60
+color chain
+
+select hetero and not hoh and not *.v??? and not DOC
+wireframe 60
+color cpk
+cpk 100
+
+select hetero and not hoh and *.v???
+cpk 110
+color yellow
+
+select within(8.0,hetero and not hoh) and not hetero and not hydrogen and *a
+wireframe 30
+color cpk
+
+select within(8.0,hetero and not hoh) and not hetero and not hydrogen and not *a
+wireframe 30
+color cpk
+
+select hetero and not hoh and (*.c??? or *.aroc) 
+color gold
+
+select within(8.0,hetero and not hoh) and not hetero and carbon and */1
+color lightgreen
+
+select hetero and carbon and */1
+color lightgreen
+
+center hetero and not hoh
+zoom 200
+
+select *

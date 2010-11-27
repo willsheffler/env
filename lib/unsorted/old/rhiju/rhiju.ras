@@ -1,0 +1,5 @@
+select all
+wireframe off
+backbone 60
+color chain
+select *
