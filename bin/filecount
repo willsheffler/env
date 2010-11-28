@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import os, sys
+
+def numOfFiles&#40;dir&#41;&#58;
+  count = 0
+  for tup in os.walk&#40;dir&#41;&#58; count += len&#40;tup&#91;2&#93;&#41;
+  return count
+
+for arg in sys.argv&#91;1&#58;&#93;&#58;
+  print arg, '->', numOfFiles&#40;arg&#41;
