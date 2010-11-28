@@ -2,10 +2,10 @@
 
 import os, sys
 
-def numOfFiles&#40;dir&#41;&#58;
+def numOfFiles(dir):
   count = 0
-  for tup in os.walk&#40;dir&#41;&#58; count += len&#40;tup&#91;2&#93;&#41;
+  for tup in os.walk(dir): count += len(tup[2])
   return count
 
-for arg in sys.argv&#91;1&#58;&#93;&#58;
-  print arg, '->', numOfFiles&#40;arg&#41;
+for arg in sys.argv[1:]:
+  print arg, '->', numOfFiles(arg)
