@@ -3,9 +3,7 @@
 import os, sys
 
 def numOfFiles(dir):
-  count = 0
-  for tup in os.walk(dir): count += len(tup[2])
-  return count
+	return len(os.listdir(dir))
 
 for arg in sys.argv[1:]:
-  print arg, '->', numOfFiles(arg)
+	print numOfFiles(arg), arg

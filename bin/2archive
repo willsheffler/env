@@ -1,0 +1,112 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+
+my $systemBasePath = "/Volumes/Data/local_arc";
+( -d $systemBasePath ) or die "Archive directory ($systemBasePath) doesn't exist. Talk to a sysad\n";
+
+my $USAGE = "$0: archiving command
+
+$0 DIRECTORY_NAME
+DIRECTORY_NAME is the source directory that you want archived to 
+the mirrored path under $systemBasePath.
+The directory name can be an absolute path, the current directory or
+a dirctory under the current directory. You can not use e.g. ../somedir
+The source directory has to exist under /work/YOU_USER_NAME or /dump/YOUR_USER_NAME.
+
+
+_Examples_
+
+2archive .
+2archive /work/jane/design/proteinG
+2archive ./proteinG
+
+";
+
+( $#ARGV < 0 ) and die "$USAGE \nYou did not give a directory\n\n";
+( $#ARGV > 0 ) and die "$USAGE \nYou gave too many arguments\n\n";
+
+my $source = $ARGV[0];
+( -d $source ) or die "$0 source $source not found OR NOT A DIRECTORY\n$USAGE";
+$source =~ s@/$@@; # get rid of trailing slash.
+
+# Make source absolute path, to later build the out tar file name.
+if( $source  =~ m@^/@ ){
+        #print "Using absolute path\n";
+        my $absolutePath =1;
+}elsif( $source !~ m@^\.\./@ and $source !~ m@/\.\./@ ){ # sorry no weird or realtive
+        #Relative Path
+        $source =~ s@^\./@@;   # ./bal/ldkjf -> bal/ldkjf
+        ($source =~ m@^.$@ ) and $source = ""; # $0 . -> pwd
+        my $cwd = $ENV{PWD};
+        my $newSource = "$cwd/$source" ;
+        ( -d $newSource ) or die "exiting $0: unable to parse source $source to $newSource\n";
+        $source = $newSource;
+}else{
+        die "Exiting $0: use only absoulte paths (begin with /) or give a directory in the current directory.";
+}
+
+# source /work/USER/glajf/kdjf  -> /work/USER/glajf/
+# or
+# source /dump/USER/glajf/kdjf  -> /arc/USER/dump...
+$source =~ s@/$@@; #trailing slash, again.
+
+# Add date and user name parts to the path
+my $sdate = `date +%Y/%m`; 
+chomp($sdate);
+my $user = $ENV{LOGNAME};
+( $user =~ /^\w+$/ ) or die "Exiting $0: your name has non-word characters\n";
+#sheffler#( $source =~ m@^/work/$user@ or $source =~ m@^/dump/$user@ or $source =~ m@^/net/$user@) or die " Exiting $0: only archive your own work directory not $source (check)\n";
+# Build tar file name from the source path.
+my $tarName = $source;
+$tarName =~ s@/@_@g; # substitute underscores for slashes
+$tarName =~ s@_$@@g; #prune trailing slashes
+
+
+# build target path
+my $listFile = "";
+my $targetDir = "";
+if( $source =~ m@^/Users/$user$@ or $source =~ m@^/Users/$user/(\S+)@ ){
+        my $remainderPath="";
+        (defined($1) ) and $remainderPath=$1;
+        $targetDir = "$systemBasePath/$user/$remainderPath/libr";
+        $listFile = "$source/$tarName.lst";
+}else{
+        die " Exiting $0: only archive your own work directory not $source (fall through)\n";
+}
+
+
+#my $systemBasePath = "/arc";
+$targetDir =~ s@/\./@/@g;  # get rid of /./ in path
+$targetDir =~ s@//@/@g;
+$targetDir =~ s@/\./@/@g;  # get rid of /./ in path
+$targetDir =~ s@//@/@g;
+
+
+( -f $targetDir ) and die "$0 exiting target dir $targetDir a file\n";
+if( -d $targetDir ){
+        #print "target dir $targetDir exists, proceeding\n";
+        my $targetDirExistence = 1;
+}else{   
+        #print "making dir $targetDir, proceeding\n";
+        system( "mkdir", "-p", $targetDir);
+}
+
+my $tarNamePath="";
+
+$tarNamePath = "$targetDir/${tarName}.tar";
+
+if ( -f  $tarNamePath ){
+        print "**** $tarNamePath EXISTS ($0),\n**** do you want to overwrite it[y/n][default=n]\n";
+        my $overwrite =<STDIN>;
+        ( $overwrite =~ /^y/i or $overwrite =~ /^n/i ) or $overwrite = "n";
+        ( $overwrite =~ /^n/i ) and die "Exiting $0: not overwriting $tarNamePath\n";
+        print "Overwriting $tarNamePath ($0)\n";
+}
+
+my @errout = ();
+print "$0 tarring $source to $tarNamePath listed in $listFile\n";
+#system("/bin/tar", "cf", $tarNamePath, $source, "> $source/$tarName.lst");
+@errout = `/usr/bin/tar cvf $tarNamePath $source > $listFile` ;
+print @errout;

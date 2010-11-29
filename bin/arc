@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+
+import sys,os,subprocess
+
+def errhandler(oserr):
+	print "error in subdir from os.walk!"
+	print oserr
+	sys.exit()
+
+def mkarc(dn):
+	print "archiving dir",dn
+	
+	tgterr = ""
+	for d,sd,f in os.walk(dn,onerror=errhandler):
+		print 
+	sys.exit()
+	
+	fulldn = os.path.abspath(dn)
+	listfile = "%s.LOCALARCHIVE"%fulldn
+	cmd = ["/usr/bin/tar","-v","-z","-P","-c",fulldn]
+	p = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+	err = p.stderr.read()
+	for l in err.split():
+		if not l.startswith("a /Users/"):
+			print "BAD STDERR FROM TAR:"
+			print err
+			sys.exit()
+	out = p.stdout.read()
+	o = open("%s.tgz"%fulldn,"w")
+	o.write(out)
+	o.close()
+	o = open(listfile,"w")
+	o.write(err)
+	o.close()
+
+for dn in sys.argv[1:]:
+	if not os.path.isdir(dn):
+		print dn,"is not a directory"
+		sys.exit()
+	if os.path.exists("%s.LOCALARCHIVE"%dn):
+		print "archive already exists for",dn
+		sys.exit()
+
+for dn in sys.argv[1:]:
+	mkarc(dn)
