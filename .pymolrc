@@ -1,58 +1,52 @@
+
 set cartoon_oval_length=0.50
 set cartoon_oval_width=0.10
 set cartoon_rect_length=0.50
 set cartoon_rect_width=0.10
 set ribbon_width=3.0
+set antialias=1
 stereo walleye
 set orthoscopic
 set depth=0
 #set valence
 set stick_radius=0.15
-run ~/svn/trunk/python_scripts/pymol_scripts/util.py
-run ~/svn/trunk/python_scripts/pymol_scripts/PackingMeasureUtils.py
+run ~/lib/pymol/util.py
+run ~/lib/pymol/PackingMeasureUtils.py
 #run ~/svn/trunk/python_scripts/pymol_scripts/axes_cyl.py
 
-color green , chain A and elem C
-color cyan  , chain B and elem C
-color purple, chain C and elem C
-color yellow, chain D and elem C
-
-show car
-show sticks
-hide every, hydro
-
-
+# color green , chain A and elem C
+# color cyan  , chain B and elem C
+# color purple, chain C and elem C
+# color yellow, chain D and elem C
 # 
-# # for looking at dubois stuff
-# #show lines
-# #bond name NI, name HH within 3 of name NI
-# bond name NI, name P
+# # # for looking at dubois stuff
+# # #show lines
+# # #bond name NI, name HH within 3 of name NI
+# # bond name NI, name P
+# # show sticks
+# # show car
+# # hide every, hydro
+# # show spheres, name HH and resn NPP
+# # set sphere_quality=2
+# # hide car, ss 'L'
+# # 
+# # # bond_zn all
+#  
+# hide ev, resn CAV
+# show spheres, resn CAV
+# useTempRadii  resn CAV
+# color white, elem C
+# #set sphere_transparency=0.8
+# show sticks, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
+# color red, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
+# select resn CAV
+
+# remove resn HOH
+# remove chain B
 # show sticks
 # show car
-# hide every, hydro
-# show spheres, name HH and resn NPP
-# set sphere_quality=2
-# hide car, ss 'L'
-# 
-# # show car
-# show sticks
-# # hide lines
-# # hide every, resn XXX
-# # hide every, hydro
-# # hide every, name VSG
-# # hide every, name SG
-# # hide every, name VHG
-# # bond_zn all
- 
-hide ev, resn CAV
-show spheres, resn CAV
-useTempRadii  resn CAV
-color white, elem C
-#set sphere_transparency=0.8
-show sticks, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
-color red, not (resn CAV,ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL)
-select resn CAV
+# hide lines
+# show spheres, name CU
+# hide ev, orig* and not name CU
+# color white, elem c and byres ((resn tyr and name OH) within 3.2 of (resn HIS and (name NE2,ND1)))
 
-# hide every
-# show lines
-# 

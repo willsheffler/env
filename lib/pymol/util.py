@@ -1,6 +1,7 @@
 from pymol import cmd
 from pymol.cgo import *
 from random import randrange
+import glob
 import sets
 # from vecmat import *
 
@@ -635,7 +636,7 @@ def mkc4(sel,a=Vec(1,0,0),c=Vec(0,0,0)):
 	rot("c3",a,180,c)
 	rot("c4",a,270,c)		
 	
-def alignall(sel="",obj=None):
+def alignall(sel="all",obj=None):
 	l = cmd.get_object_list()
 	if not obj: obj = l[0]
 	if obj not in l: 
@@ -644,6 +645,13 @@ def alignall(sel="",obj=None):
 	for o in l:
 		if o==obj: continue
 		cmd.do("align "+o+" and ("+sel+"),"+obj+" and ("+sel+")")
+	return
+	
+def centerall(sel="all"):
+	l = cmd.get_object_list()
+	for o in l:
+		s = "%s and (%s)"%(o,sel)
+		trans(s,-com(s))
 	return
 
 	
@@ -663,4 +671,8 @@ def bondzn():
 		for r,c in getres(o+" and elem ZN"):			
 			cmd.bond("(%s and resi %s and chain %s)"%(o,r,c), "(%s and resn HIS and elem N) within 2.5 of (%s and resi %s and chain %s)"%(o,o,r,c) )
 		break
+
+def loadmov(d):
+	files = glob.glob(d+"/*.pdb")
+	for f in files: cmd.load(f,"mov")
 
