@@ -1,1 +1,4 @@
 *~
+*.pyc
+.emacs.d/session.*
+
