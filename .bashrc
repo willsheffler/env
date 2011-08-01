@@ -50,16 +50,16 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\W\$ '
 fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\W\a\]$PS1"
     ;;
 *)
     ;;
@@ -103,7 +103,11 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-source /home/sheffler/home/.bashrc.cmd_hist.sh
-source /home/sheffler/home/.bashrc.build_linux.sh
-source /home/sheffler/home/.bashrc.alias_linux.sh
+source /Users/sheffler/home/.bashrc.cmd_hist.sh
+source /Users/sheffler/home/.bashrc.build_mac.sh
+source /Users/sheffler/home/.bashrc.build_mac.sh
+#source /home/sheffler/home/.bashrc.alias_linux.sh
+export OMP_DYNAMIC=FALSE
+export OMP_NUM_THREADS=4
 
+export PS1='\W>'
