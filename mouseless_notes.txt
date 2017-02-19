@@ -1,0 +1,4 @@
+ctrl-f2 menu
+
+
+defaults write com.apple.dock expose-animation-duration -float 0.15

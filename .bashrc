@@ -103,11 +103,23 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-source /Users/sheffler/home/.bashrc.cmd_hist.sh
-source /Users/sheffler/home/.bashrc.build_mac.sh
-source /Users/sheffler/home/.bashrc.build_mac.sh
-#source /home/sheffler/home/.bashrc.alias_linux.sh
+source $HOME/Dropbox/home/.bashrc.cmd_hist.sh
+source $HOME/Dropbox/home/.bashrc.build_mac.sh
+source $HOME/Dropbox/home/.bashrc.build_mac.sh
+
 export OMP_DYNAMIC=FALSE
-export OMP_NUM_THREADS=4
+export OMP_NUM_THREADS=8
 
 export PS1='\W>'
+export PATH=/usr/local/bin:/opt/local/bin:/Users/sheffler/lib/pylibclang:$PATH
+export PYTHONPATH="$HOME/lib:$HOME/lib/pymol:/Users/sheffler/Dropbox/project/clyther/lib:$PYTHONPATH"
+
+source $HOME/PyRosetta.MacOSX.Lion-r46035.64Bit/SetPyRosettaEnvironment.sh
+
+alias pymol='/Applications/MacPyMOL.app/Contents/MacOS/MacPyMOL'
+
+export EDITOR='emacs'
+export VISUAL='mate -w'
+
+export LD_LIBRARY_PATH=/Users/sheffler/libclang/build/Release/lib:$LD_LIBRARY_PATH
+

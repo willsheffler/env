@@ -1,26 +1,371 @@
-hide ev
-set cartoon_oval_length=0.50
-set cartoon_oval_width=0.10
-set cartoon_rect_length=0.50
-set cartoon_rect_width=0.10
-set ribbon_width=3.0
-stereo walleye
+
+util.performance(1)
 set orthoscopic
-set depth=0
-#set valence
-set line_smooth
+stereo walleye
+set all_states=on
+
 set stick_radius=0.15
-set sphere_quality=1
-run ~/lib/pymol/util.py
-run ~/lib/pymol/PackingMeasureUtils.py
-run ~/lib/pymol/axes.py
+#set depth_cue=on
+#
+run ~/pymol/pymol_util.py
+run ~/pymol/motif_util.py
+run ~/pymol/sym_util.py
+run ~/pymol/helix_util.py
+#run ~/pymol/sym_comp.py
+#run ~/pymol/symgen.py
+#run ~/pymol/packing_utils.py
+#run ~/pymol/inspector.py
+#run ~/pymol/misc/G222.py
+
+run ~/pymol/test_gl.py
+
+#run ~/pymol/server.py
+#start_pymol_server()
+
+#hide ev
+#show car
+
+# hide ev
+# show lines
+# show sti, *_1 and not name n+ca+c+o+h
+# hide ev, ele H and not neighbor(ele N+O)
+
+# # for RIF stuff...
+# show sti, *pack*
+# disable all
+# #enable native
+# enable *_000000000
+# util.cbc( "elem C" )
+# show sti, chain A and ( not resn ALA+GLY+CYD+CYS+PRO ) and not (name H+N+C+O)
+# show sti, het
+# hide ev, ele H and not neighbor(ele N+O)
+# zoom chain A and not ( hydro or name N+CA+C+O+CB )
+# hide sti, native
+# color white, native and elem C
+# show rib
+# alignall("chain B")
+# center chain B within 5 of chain A
+
+#select pos=elem C and resi 12+13+16+24+28+34+36+41+47+50+51+54+61+73+75+77+79+88+90+92+99+102+104
+#color white, pos
+#hide sti, pos
+#hide ev, hydro
+
+#show sph
+#ncolor_obj
+#axes
+
+#util.cbc
+#hide ev
+#show rib
+
+# hide lin, not chain ~
+# show car, not chain ~
+# util.cbc('not chain ~')
+# color white, chain ~
+
+#show lin, name n+ca+c
+#util.color_objs("all")
+
+#select index 2;
+#zo index 2
+
+#show car, not motif*
+#show lin, motif*
+#util.cbc
+#show sti, chain A
+#hide ev, hydro
+#disable all
+#enable *0001
+
+# hide ev, hydro
+# hide ev, name vhg
+# show lin, name HD1+HE2
 
 
-remove hydro
-color green, chain A and elem C
-color cyan , chain B and elem C
-show car
-#show lines, not name n+ca+c+o
-show sticks, resn sf4+cys
-zoom vis
+
+# color white, target and elem C and resi 30-32+55-58+119-124+148-152
+# #hide ev
+# show rib
+# hide ev, hydro
+# hide ev, *_grid
+# show sph, *_grid
+MOVE_UP_DOWN_SPECIAL_OBJS.append("native")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("bouquet_ref")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("gyroid")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("target")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_structure")
+
+
+#show sph, test*
+#color red, test*
+#MOVE_UP_DOWN_SPECIAL_OBJS.append("bcc")
+
+
+#alter h120_0, vdw=8.0/2**0
+#alter h120_1, vdw=8.0/2**1
+#alter h120_2, vdw=8.0/2**2
+#alter h120_3, vdw=8.0/2**3
+#alter h120_4, vdw=8.0/2**4
+#alter h120_5, vdw=8.0/2**5
+#alter h120_6, vdw=8.0/2**6
+#alter h120_7, vdw=8.0/2**7
+#alter h120_8, vdw=8.0/2**8
+#alter h120_9, vdw=8.0/2**9
+#rebuild
+#show sph
+
+#util.cbc
+
+#remove hydro and not neighbor (ele n+o)
+#show sti, test*
+#remove hydro
+#remove test* and name n+o+c
+
+# alter dots*, vdw=0.5
+# show sph, dots*
+# spectrum b, rainbow, dots*
+# zoom dots*
+
+#util.cbc
+#util.cnc
+#hide lin, chain b
+#show lin, chain b and name n+ca+c
+#color white, hotspot*
+#hide ev, hydro
+
+#hide ev
+#util.cbc
+#show lin
+#show sti, chain A
+#remove hydro and not neighbor (ele n+o)
+#util.cnc
+
+ # set specular=0
+ # set specular_intensity=0
+
+ # set depth=0
+ useRosettaRadii()
+# set cartoon_oval_length=0.40
+# set cartoon_oval_width=0.1
+# set cartoon_rect_length=0.40
+# set cartoon_rect_width=0.1
+# set cartoon_tube_radius=0.3
+ set ribbon_as_cylinders=0
+ set ribbon_sampling=10
+ # set ribbon_side_chain_helper, off
+ set antialias,1
+ set cartoon_flat_sheets,off
+ # #set line_smooth=0
+ # #showaxes2()
+ # #set sphere_quality=0
+ # #set sphere_scale=0.5
+ # #@/Users/sheffler/tmp/rosetta.pml
+
+
+#set grid_mode
+#show sph
+#util.cbc
+#set sphere_scale=4.0
+#disable *_A
+
+#run /Users/sheffler/Dropbox/project/tca_fusions/doc/pymol_picking_util.py
+#hide ev
+#show rib
+#show sph, name 3h+oxt
+
+
+
+#set grid_mode
+#util.cbc
+#disable *_REF
+#show sph, chain A
+#hide ev
+#show sph
+#util.cbc
+#show car
+#show lin, chain ~
+#util.cbc
+#color white, chain ~
+#util.cnc
+#zoom
+
+# hide ev
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_00_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_01_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_02_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_03_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_04_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("test_nest_05_ALL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("art6")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("art7")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("UNIT_CELL")
+MOVE_UP_DOWN_SPECIAL_OBJS.append("ebo")
+# set sphere_scale=0.05
+# show sph
+# #util.color_objs()
+# color white
+# util.chainbow("*_ALL*")
+
+
+# sphere stuff
+#useOccRadii()
+#show sph
+#util.cbc
+
+# show car, chain A
+# hide lin, chain A
+# show sti, chain B
+# util.cbc
+# util.cnc
+# zoom
+
+# ### for grid testing
+# hide ev
+# alter chain A, vdw=math.pi/16.0/2**0
+# alter chain B, vdw=math.pi/16.0/2**1
+# alter chain C, vdw=math.pi/16.0/2**2
+# alter chain D, vdw=math.pi/16.0/2**3
+# alter chain E, vdw=math.pi/16.0/2**4
+# alter chain F, vdw=math.pi/16.0/2**5
+# alter chain G, vdw=math.pi/16.0/2**6
+# alter chain H, vdw=math.pi/16.0/2**7
+# alter chain I, vdw=math.pi/16.0/2**8
+# alter chain J, vdw=math.pi/16.0/2**9
+# alter chain K, vdw=math.pi/16.0/2**10
+# alter chain L, vdw=math.pi/16.0/2**11
+# alter chain M, vdw=math.pi/16.0/2**12
+# alter chain N, vdw=math.pi/16.0/2**13
+# alter chain O, vdw=math.pi/16.0/2**14
+# alter chain P, vdw=math.pi/16.0/2**15
+# alter chain Q, vdw=math.pi/16.0/2**16
+# alter chain R, vdw=math.pi/16.0/2**17
+# alter chain S, vdw=math.pi/16.0/2**18
+# alter chain T, vdw=math.pi/16.0/2**19
+# alter chain U, vdw=math.pi/16.0/2**20
+# alter chain V, vdw=math.pi/16.0/2**21
+# alter chain W, vdw=math.pi/16.0/2**22
+# alter chain X, vdw=math.pi/16.0/2**23
+# alter chain Y, vdw=math.pi/16.0/2**24
+# alter chain Z, vdw=math.pi/16.0/2**25
+# alter test_nest_02_ALL, vdw=0.03
+# rebuild
+#
+# show sph
+# color white, resn CNX
+# color red, resn CNY
+# color green, resn CNZ
+# util.chainbow("*_ALL")
+# zoom all, 1
+# #ful
+
+
+# #dss
+# hide ev
+# show car
+# show lines, chain ~
+# show sti, chain ~ and resn ARG+LYS+HIS+ASP+GLU+ASN+GLN+TRP+TYR+SER+THR
+# # show sti, not hydro
+# util.cbc
+# util.cnc
+# # # alignall()
+#
+# # Stem vis
+# hide ev
+# show lines, het
+# show sph, not het
+# rainbow_chains()
+# unbond het and chain A, het and chain B
+# unbond het and chain A, het and chain C
+# unbond het and chain A, het and chain D
+# unbond het and chain B, het and chain C
+# unbond het and chain B, het and chain D
+# unbond het and chain C, het and chain D
+# bond resn STM and name ORIG and chain A, resn STM and name ORIG and chain B
+# bond resn STM and name ORIG and chain B, resn STM and name ORIG and chain C
+# bond resn STM and name ORIG and chain C, resn STM and name ORIG and chain D
+# bond resn STM and name ORIG and chain D, resn STM and name ORIG and chain E
+# bond resn STM and name ORIG and chain E, resn STM and name ORIG and chain F
+# bond resn STM and name ORIG and chain F, resn STM and name ORIG and chain G
+# bond resn STM and name ORIG and chain G, resn STM and name ORIG and chain H
+#
+# alter chain A, vdw=2.5
+# alter chain B, vdw=2
+# alter chain C, vdw=1.5
+# alter chain D, vdw=1
+# #showsphere(V0,45)
+# show sph
+# util.chainbow
+# zoom
+
+# dss
+# show car
+# util.cbc('elem c')
+# #cbow()
+# #util.cnc()
+# #show sti, byres all within 8 of chain A+B
+# show sti, resn bpy
+# #remove hydro and not name H
+# #show lines, name n+ca+c+o+h+cb and (byres not chain ~ within 7 of chain ~)
+# #show sph, (name o+h) and (((chain A and name O+H) within 4 of (chain B and name O+H)) or ((chain B and name O+H) within 4 # or (chain A and name O+H)))#
+# #set sphere_scale=0.2#
+# color white, chain ~ # and elem C#
+# orient#
+# hide ev, hydro and not chain ~
+# show sti, chain ~ and not hydro
+
+#   # #alter chain ~, resn="MOT"
+#   # hide ev
+#   # show rib
+#   # show lines, chain ~ and not name n+c+o
+#   # util.cbc('elem c')
+#   # zoom
+#
+#   #hide ev
+#   #show lines, name n+ca+c+o+h and not chain ~
+#
+#
+#   # remove ele h and not neighbor (ele n+o)
+#   # #show sti, not hydro and byres (not hydro) within 5 of chain A+B
+#   # #show sti, chain ~
+#   # util.cbc('elem C')
+#   # show car
+#   # #show lines
+#   # #show sti, not *ideal
+#   # #move_up_down_add_to_ignore_list('4iau.pdb1*')
+#   # #unbond chain A, not chain A
+#   # zo chain A within 5 of chain B
+#   # #process_native()
+#   # #alignall('chain A')
+#   # hide lines
+#   # show lines, chain ~ and not name n+c+o+h
+#   # # remove *motifs and name n+c+o+h
+#   # # remove *motifs and resn THR+MET
+#   # # show lines, *motifs
+#   # # color white, *motifs
+#   # # zoom *motifs
+#   # # x = Xform()
+#   # # showcyl( x*Vec(0,0,0), x*Vec(2,0,0), 0.13, col=(1,0,0) )
+#   # # showcyl( x*Vec(0,0,0), x*Vec(0,2,0), 0.13, col=(0,1,0) )
+#   # # showcyl( x*Vec(0,0,0), x*Vec(0,0,2), 0.13, col=(0,0,1) )
+#   # # x = getrelframe('*_F','*_R')
+#   # # showcyl( x*Vec(0,0,0), x*Vec(2,0,0), 0.13, col=(1,0,0) )
+#   # # showcyl( x*Vec(0,0,0), x*Vec(0,2,0), 0.13, col=(0,1,0) )
+#   # # showcyl( x*Vec(0,0,0), x*Vec(0,0,2), 0.13, col=(0,0,1) )
+#   # # remove *_R
+#   # # show sti
+#   # # remove hydro and not name H
+#   # # #hide ev, name H+O
+#   # # util.cbac('resi 1')
+#   # # util.cbam('resi 2')
+#   # # #color white, name CA+C
+#   # # bg white
+#   # # zoom
+#   # # orient
+#   # # ray
+
+print "delete *_*; rot('all',Vec(1,1,1),-1);  symexp test_, test, all, 130; color_obj"
+print "delete all; run /Users/sheffler/pymol/inspector.py; inspect = Inspector(); inspect.next()"
+
+print '[ cmd.unbond("chain B and resi %i"%ir,"chain B and resi %i"%jr) for ir in range(1,6) for jr in range(ir+1,6) ]'
 
