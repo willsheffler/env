@@ -1,4 +1,7 @@
 *~
 *.pyc
 .emacs.d/session.*
-
+*.cache
+*.last-run
+*ca-bundle
+*.tmTheme

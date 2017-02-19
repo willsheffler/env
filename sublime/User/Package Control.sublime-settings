@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"C++11",
+		"Chain of Command",
+		"Clang Format",
+		"CMake",
+		"EasyClangComplete",
+		"GitGutter",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Origami",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-pyflakes",
+		"TodoReview"
+	]
+}
