@@ -2,11 +2,13 @@
 	// a few mac holdovers for comfort
 	{ "keys": ["alt+w"], "command": "close_file" }, 
 	{ "keys": ["alt+a"], "command": "select_all" }, 
+	
 	{ "keys": ["alt+b"], "command": "chain", "args": { "commands": [["save"],["build"]] } },
+	// { "keys": ["alt+b"], "command": "build" },
+
 	{ "keys": ["alt+z"], "command": "undo" },
 	{ "keys": ["alt+shift+z"], "command": "redo" },
 	{ "keys": ["alt+k"], "command": "toggle_side_bar" },
-	{ "keys": ["alt+d"], "command": "find_under_expand" },
 	{ "keys": ["alt+shift+d"], "command": "find_under_expand_skip" },
 	// { "keys": ["alt+/"], "command": "toggle_comment" },
 	{ "keys": ["ctrl+shift+x"], "command": "cut" },
@@ -43,8 +45,8 @@
    
     { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "hardbol", "extend": false }},
     { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol", "extend": false }},
-	{ "keys": ["ctrl+alt+a"], "command": "prev_view" },
-	{ "keys": ["ctrl+alt+e"], "command": "next_view" },
+	// { "keys": ["ctrl+alt+a"], "command": "prev_view" },
+	// { "keys": ["ctrl+alt+e"], "command": "next_view" },
 
 
 	// SUPER ALT
@@ -52,11 +54,22 @@
     { "keys": ["super+alt+o"], "command": "show_overlay", "args": {"overlay": "command_palette"}, },
 
 
+
+	{ "keys": ["alt+d"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+alt+d"], "command": "alignment" },
+
+	// auto-file-name
+	{ "keys": ["alt+super+f"], "command": "afn_show_filenames",
+	   "context":
+	 [
+	     { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
+	 ]
+	},
+
     // interesting defaults
     // alt+shift+# o
 	// { "keys": ["ctrl+9"], "command": "focus_group", "args": { "group": 8 } },
 	// { "keys": ["ctrl+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
-
 
 
 

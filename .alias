@@ -1,0 +1,2 @@
+alias st=subl
+alias gitdiff="git diff > $HOME/tmp/tmp.diff && subl $HOME/tmp/tmp.diff"
