@@ -50,8 +50,9 @@
 
 
 	// SUPER ALT
-    { "keys": ["super+alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files":true}, },
-    { "keys": ["super+alt+o"], "command": "show_overlay", "args": {"overlay": "command_palette"}, },
+    { "keys": ["super+alt+g"], "command": "goto_symbol_in_project" },
+    { "keys": ["super+alt+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files":true}, },
+    { "keys": ["super+space"], "command": "show_overlay", "args": {"overlay": "command_palette"}, },
 
 
 

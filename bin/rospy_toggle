@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+import os
+
+
+def main():
+    paths = [
+        '/home/sheffler/.local/lib/python2.7/site-packages/pyrosetta_disabled',
+        '/home/sheffler/.local/lib/python2.7/site-packages/pyrosetta']
+    paths_exist = [os.path.exists(path) for path in paths]
+    if sum(paths_exist) is 2:
+        print 'rospy_toggle: ERROR multiple pyrosetta paths exit'
+    elif paths_exist[0]:
+        print 'enabling pyrosetta'
+        os.rename(paths[0], paths[1])
+    elif paths_exist[1]:
+        print 'disabling pyrosetta'
+        os.rename(paths[1], paths[0])
+    else:
+        print 'rospy_toggle: ERROR no pyrosetta', paths
+
+
+if __name__ == '__main__':
+    main()

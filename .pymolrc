@@ -18,6 +18,8 @@ run ~/pymol/helix_util.py
 #run ~/pymol/inspector.py
 #run ~/pymol/misc/G222.py
 
+full
+
 run ~/pymol/test_gl.py
 
 #run ~/pymol/server.py

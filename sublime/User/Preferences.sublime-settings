@@ -4,13 +4,15 @@
 		"format_on_save": true
 	},
 	"afn_use_keybinding": true,
+	"anaconda_linting": true,
+	"anaconda_linting_behaviour": "always",
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 9,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -24,6 +26,11 @@
 	"material_theme_tabs_separator": true,
 	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
+	"pep257": false,
+	"python_interpreter": "/usr/bin/python",
+	"test_command": "pytest",
 	"theme": "Material-Theme.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"use_pylint": false,
+	"validate_imports": true
 }
