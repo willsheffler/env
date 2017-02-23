@@ -67,6 +67,50 @@
 	 ]
 	},
 
+    // ORIGAMI
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "travel_to_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+k", "ctrl+f"], "command": "travel_to_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+k", "ctrl+n"], "command": "travel_to_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "travel_to_pane", "args": {"direction": "left"} },
+    
+    { "keys": ["ctrl+k", "p"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+k", "f"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+k", "n"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+k", "b"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+    
+    // { "keys": ["ctrl+k", "alt+ctrl+p"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+    // { "keys": ["ctrl+k", "alt+ctrl+f"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+    // { "keys": ["ctrl+k", "alt+ctrl+n"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+    // { "keys": ["ctrl+k", "alt+ctrl+b"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+    // You can also create the pane automatically with the following command (insert empty parameters):
+    // { "keys": [], "command": "create_pane_with_cloned_file", "args": {"direction": ""} }
+    { "keys": ["ctrl+k", "ctrl+shift+p"], "command": "create_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+k", "ctrl+shift+f"], "command": "create_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+k", "ctrl+shift+n"], "command": "create_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+k", "ctrl+shift+b"], "command": "create_pane", "args": {"direction": "left"} },
+    // You can also add  "give_focus": true to automatically focus on the new pane as follows:
+    // { "keys": [], "command": "create_pane", "args": {"direction": "", "give_focus": true} }
+    { "keys": ["ctrl+k", "ctrl+shift+alt+p"], "command": "destroy_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+k", "ctrl+shift+alt+f"], "command": "destroy_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+k", "ctrl+shift+alt+n"], "command": "destroy_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+k", "ctrl+shift+alt+b"], "command": "destroy_pane", "args": {"direction": "left"} },
+    // You can also destroy the current pane by binding the following command:
+    { "keys": ["ctrl+k", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+    
+    // { "keys": ["ctrl+k", "ctrl+alt+ctrl+p"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+    // { "keys": ["ctrl+k", "ctrl+alt+ctrl+f"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+    // { "keys": ["ctrl+k", "ctrl+alt+ctrl+n"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+    // { "keys": ["ctrl+k", "ctrl+alt+ctrl+b"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+    
+    // You can pull a file from another pane by binding the following command:
+    // { "keys": [], "command": "pull_file_from_pane", "args": { "direction": ""} }
+    { "keys": ["ctrl+k", "ctrl+z"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+    { "keys": ["ctrl+k", "ctrl+shift+z"], "command": "unzoom_pane", "args": {} },
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "resize_pane", "args": {"orientation": "cols"} },
+    { "keys": ["ctrl+k", "ctrl+r"], "command": "resize_pane", "args": {"orientation": "rows"} }
+
+
+
     // interesting defaults
     // alt+shift+# o
 	// { "keys": ["ctrl+9"], "command": "focus_group", "args": { "group": 8 } },

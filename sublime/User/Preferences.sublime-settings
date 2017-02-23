@@ -12,7 +12,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 11,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -32,5 +32,10 @@
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"use_pylint": false,
-	"validate_imports": true
+	"validate_imports": true,
+    "auto_formatting": true,
+    "anaconda_linter_persistent": false,
+    "anaconda_gutter_theme": "retina",
+    "anaconda_linter_mark_style": "stippled_underline",
+
 }
