@@ -1,0 +1,3916 @@
+{
+	"folder_history":
+	[
+		"/home/sheffler/.local/lib/python2.7/site-packages/pyrosetta_disabled/pyrosetta",
+		"/home/sheffler/checkio",
+		"/home/sheffler/Dropbox/doc/check_io",
+		"/home/sheffler/riflib"
+	],
+	"last_version": 3126,
+	"last_window_id": 103,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"quat",
+						"quaternion_set_with_covering_radius_degrees"
+					],
+					[
+						"ori",
+						"orientations"
+					],
+					[
+						"karne",
+						"karney_name_by_radius"
+					],
+					[
+						"quatern",
+						"quaternion_set_by_name"
+					],
+					[
+						"qu",
+						"quaternion_set_by_name"
+					],
+					[
+						"kar",
+						"karney_index"
+					],
+					[
+						"data",
+						"DATA_PATH"
+					],
+					[
+						"read",
+						"read_karney_orientation_file"
+					],
+					[
+						"karn",
+						"karney_set_with_covering_radius_degrees"
+					],
+					[
+						"mkdi",
+						"mkdir_if_necessary"
+					],
+					[
+						"cmake",
+						"CMAKE_SOURCE_DIR"
+					],
+					[
+						"CMAKE",
+						"CMAKE_LIBRARY_OUTPUT_DIRECTORY"
+					],
+					[
+						"CMAK",
+						"CMAKE_SOURCE_DIR"
+					],
+					[
+						"dir",
+						"directories"
+					],
+					[
+						"upda",
+						"update_file_if_needed"
+					],
+					[
+						"c",
+						"cpp"
+					],
+					[
+						"def",
+						"def_submodule\tpybind11::module def_submodule(const char *name)"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 558.0,
+				"last_filter": "pref",
+				"selected_items":
+				[
+					[
+						"pref",
+						"Preferences: Settings"
+					],
+					[
+						"prefer",
+						"Preferences: Settings"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"restore",
+						"Origami: Restore Saved Layout"
+					],
+					[
+						"save",
+						"Origami: Save Current Layout"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"Settings",
+						"Preferences: Settings – Syntax Specific"
+					],
+					[
+						"autofor",
+						"Anaconda: Autoformat PEP8 Errors"
+					],
+					[
+						"settin",
+						"Preferences: Settings"
+					],
+					[
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"new",
+						"ANF: New File"
+					],
+					[
+						"orig",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"pep",
+						"Anaconda: Autoformat PEP8 Errors"
+					],
+					[
+						"type",
+						"Set Syntax: Python Extended"
+					],
+					[
+						"origa",
+						"Origami: Create Pane Above"
+					],
+					[
+						"glue",
+						"Glue - Launch"
+					],
+					[
+						"pep8",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"open res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resourcev",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resou",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"todo",
+						"TodoReview: Open Files"
+					],
+					[
+						"ora",
+						"Origami: Create and Focus Pane Below"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"save all",
+						"File: Save All"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"cancel",
+						"Build: Cancel"
+					],
+					[
+						"ref",
+						"Project: Refresh Folders"
+					],
+					[
+						"format",
+						"Clang Format: Format Selection"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Lint This View"
+					],
+					[
+						"enable lin",
+						"SublimeLinter: Disable Linter"
+					],
+					[
+						"toggle lin",
+						"SublimeLinter: Toggle Linter"
+					],
+					[
+						"gitgu",
+						"Git: Gui"
+					],
+					[
+						"pack",
+						"Install Package Control"
+					]
+				],
+				"width": 728.0
+			},
+			"console":
+			{
+				"height": 367.0,
+				"history":
+				[
+					"print(sys.path)",
+					"print sys.path",
+					"import sys",
+					"print(sys.path)",
+					"print sys.path",
+					"print('poo')",
+					"print 'poo'"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": true
+			},
+			"file_history":
+			[
+				"/home/sheffler/rif/setup.py",
+				"/usr/bin/virtualenv",
+				"/home/sheffler/virtualenv",
+				"/etc/rc.local",
+				"/home/sheffler/rif/setup.cfg",
+				"/home/sheffler/rif/LICENSE.txt",
+				"/home/sheffler/.pypirc",
+				"/home/sheffler/rif/tests/test_karney.py",
+				"/home/sheffler/.config/terminator/config",
+				"/home/sheffler/env/k400_swap_alt_win.sh",
+				"/home/sheffler/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/sheffler/rif/tools/cp_filtered.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Origami.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+				"/home/sheffler/rif/tests/test_biochem.py",
+				"/home/sheffler/rif/tests/test_visual.py",
+				"/home/sheffler/rif/CMakeLists.txt",
+				"/home/sheffler/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/sheffler/.alias",
+				"/home/sheffler/.bashrc",
+				"/home/sheffler/.local/lib/python2.7/site-packages/local.pth",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/sheffler/rif/src/visual/vispymol.py",
+				"/home/sheffler/rif/src/nest/pmap/EulerAnglesMap.gtest.cpp",
+				"/home/sheffler/rif/src/visual/setup.py",
+				"/usr/lib/python2.7/distutils/core.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings",
+				"/etc/default/keyboard",
+				"/home/sheffler/.pymolrc",
+				"/home/sheffler/rif/pytest.ini",
+				"/home/sheffler/rif/tools/clean.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+				"/home/sheffler/rif/ide/rif.sublime-project",
+				"/home/sheffler/rif/jigs/gen__init__.py",
+				"/home/sheffler/rif/src/util/rcl.py",
+				"/home/sheffler/rif/src/__init__.py",
+				"/home/sheffler/rif/src/test/test_numpy.py",
+				"/home/sheffler/rif/src/actor/Atom.hpp",
+				"/home/sheffler/rif/src/chem/RotamerIndex.hpp",
+				"/home/sheffler/rif/src/chem/ligand_factory.lib.cpp",
+				"/home/sheffler/rif/src/chem/stub.gtest.cpp",
+				"/home/sheffler/rif/src/io/dump_pdb_atom.hpp",
+				"/home/sheffler/rif/src/objective/methods/hbond_5dof.gtest.cpp",
+				"/home/sheffler/rif/src/test/gtest_wip.cpp",
+				"/home/sheffler/rif/tests/test_rcl.py",
+				"/boot/efi/EFI/refind/refind.conf",
+				"/home/sheffler/.ssh/config",
+				"/etc/fstab",
+				"/home/sheffler/sw/pyrosetta/PyRosetta4.MinSizeRel.python27.ubuntu.release-132/self-test.py",
+				"/etc/fuse.conf",
+				"/home/sheffler/rif/jigs/sloc.sh",
+				"/home/sheffler/bin/rospy_toggle",
+				"/home/sheffler/.local/lib/python2.7/site-packages/easy-install.pth",
+				"/home/sheffler/env/.path",
+				"/home/sheffler/env/bin/rospy_toggle",
+				"/usr/local/bin/ipython",
+				"/home/sheffler/rif/src/chemical/__init__.py",
+				"/home/sheffler/rif/biochem.py",
+				"/home/sheffler/rif/src/visualize/vispymol.py",
+				"/home/sheffler/riflib/jigs/build_utils.py",
+				"/home/sheffler/riflib/pytest.ini",
+				"/home/sheffler/tmp/tmp.diff",
+				"/home/sheffler/riflib/src/sampling/orientations.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+				"/home/sheffler/riflib/jigs/jigs/build_and_run_pytest.py",
+				"/home/sheffler/riflib/src/sampling/orientations.pybind.cpp",
+				"/home/sheffler/riflib/CMakeLists.txt",
+				"/home/sheffler/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/pep8_autoformat.sublime-settings",
+				"/home/sheffler/riflib/jigs/build_and_run_pytest.py",
+				"/home/sheffler/riflib/src/numeric/cube_to_sphere.gtest.cpp",
+				"/home/sheffler/riflib/src/numeric/cube_to_sphere.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme.sublime-theme",
+				"/home/sheffler/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/sheffler/riflib/tests/test_karney.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/usr/lib/python2.7/distutils/dist.py",
+				"/usr/lib/python2.7/distutils/command/build.py",
+				"/usr/lib/python2.7/distutils/cmd.py",
+				"/home/sheffler/riflib/ide/setup.py",
+				"/usr/lib/python2.7/subprocess.py",
+				"/home/sheffler/riflib/src/riflib.gen.cpp",
+				"/setup.py",
+				"/home/sheffler/riflib/README.md",
+				"/home/sheffler/riflib/src/test/test_numpy.py",
+				"/home/sheffler/riflib/tests/test_riflib_import.py",
+				"/home/sheffler/riflib/tests/test_hypothesis.py",
+				"/home/sheffler/riflib/src/test/example.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+				"/home/sheffler/riflib/src/objective/ObjectiveFunction.hpp",
+				"/home/sheffler/riflib/src/objective/ObjectiveFunction.hpp.tmp",
+				"/home/sheffler/riflib/src/kinematics/Scene.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/clang_format.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+				"/home/sheffler/sublime/.gitignore",
+				"/home/sheffler/rif/docs/index.rst",
+				"/home/sheffler/riflib/docs/index.rst",
+				"/home/sheffler/scheme/doc/index.rst",
+				"/home/sheffler/riflib/jigs/cp_filtered.py",
+				"/home/sheffler/.profile",
+				"/home/sheffler/riflib/jigs/build_docs_html.py",
+				"/home/sheffler/riflib/src/sampling/orientations.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+				"/home/sheffler/riflib/jigs/pybind_source_gen.py",
+				"/home/sheffler/riflib/jigs/cmake_build_and_run_pytest.py",
+				"/home/sheffler/riflib/jigs/build_and_run_gtest_wip.py",
+				"/home/sheffler/riflib/ide/riflib.sublime-project",
+				"/home/sheffler/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+				"/home/sheffler/riflib/README.txt",
+				"/home/sheffler/rosetta/master/source/src/basic/sampling/orientations/QuaternionGrid.cc",
+				"/home/sheffler/riflib/setup.py",
+				"/home/sheffler/riflib/devtools/sourcegen.py",
+				"/home/sheffler/riflib/devtools/cp_filtered.py",
+				"/home/sheffler/riflib/src/sourcegen.py",
+				"/home/sheffler/riflib/src/riflib.gen.cpp.jinja",
+				"/home/sheffler/riflib/tests/test_numpy.py",
+				"/home/sheffler/riflib/src/objective/ObjectiveFunction.gtest.cpp",
+				"/home/sheffler/riflib/src/numeric/rand_xform.hpp",
+				"/home/sheffler/riflib/src/numeric/rand_xform.gtest.cpp",
+				"/home/sheffler/riflib/src/numeric/geom_4d.hpp"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 200.0,
+				"where_history":
+				[
+					"",
+					"src/"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"LooseVer",
+					"norm",
+					"alt",
+					"shift",
+					" \"",
+					"d",
+					"left",
+					"down",
+					"right",
+					"up",
+					"path",
+					"pymol",
+					"CMAKE_CXX",
+					"LogicError",
+					"jigs",
+					"core.chem",
+					"\"chemical/",
+					".chemical.",
+					"/chemical/",
+					"make_init_if_necessary",
+					"prompt",
+					"x",
+					"rif_is_installed",
+					"is_devel_install",
+					"glue_userpath",
+					"Xform",
+					"appbar",
+					"tab",
+					"Z",
+					"z = Z",
+					" = ",
+					"Float",
+					"Z",
+					" = ",
+					"=",
+					"Z",
+					" = ",
+					"=",
+					" =",
+					"Matrix4Xd",
+					"MatrixXd",
+					"l",
+					"py",
+					"module",
+					"(",
+					"\\",
+					"sourcegen",
+					" '",
+					"sourcegen.py",
+					"devtools/",
+					"cover",
+					"# ",
+					")",
+					"  )",
+					",",
+					"\",",
+					"# (\"",
+					"# #",
+					"#        ",
+					"by_radius",
+					"_.push_back(QuatDBMetadata",
+					"CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+					"lib_location",
+					"home",
+					"loc",
+					"cmake",
+					"mkdirp",
+					"mkfilep",
+					"d",
+					"pyfile",
+					"iprefix",
+					"riflib",
+					"#include \"riflib/",
+					"riflib",
+					"_riflib",
+					"target_link",
+					"\"riflib/",
+					"PackSet",
+					"cin",
+					"());\n",
+					"rdbuf()",
+					"this->this->",
+					"gptr()",
+					"egptr()",
+					"pptr",
+					"rdbuf",
+					"cin",
+					"aoistarsaorestniera",
+					"aoriitirantsaironsteiarnsitnarisntiearnstoinareistnarisnti",
+					"code",
+					"forward",
+					"pyfiles",
+					"pybindfiles",
+					"template_src",
+					"template_file",
+					"template",
+					"f",
+					"k",
+					"v",
+					"o",
+					"pyfiles",
+					"f",
+					"template",
+					"Template",
+					"template",
+					"'src/riflib.pybind.cpp.jinja'",
+					"'src/riflib.pybind.cpp'",
+					"'src/riflib.pybind.cpp.TMP'",
+					"pigen",
+					"something",
+					"k",
+					"init",
+					"auto",
+					"riflib",
+					"rifb",
+					"BUILD_PYTHON_BINDINGS",
+					">>>",
+					"\n>>>",
+					">>>",
+					"from"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\"chem/",
+					".chem.",
+					"/chem/",
+					"jigs/",
+					"#include \""
+				],
+				"reverse": false,
+				"show_context": false,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 88.0
+			},
+			"input":
+			{
+				"height": 133.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 55.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "cmake_build_and_run_pytest_thisfile",
+			"replace":
+			{
+				"height": 144.0
+			},
+			"save_all_on_build": false,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pytest",
+						"pytest.ini"
+					],
+					[
+						"karn",
+						"tests/test_karney.py"
+					],
+					[
+						"orientat",
+						"src/sampling/orientations.py"
+					],
+					[
+						"kar",
+						"tests/test_karney.py"
+					],
+					[
+						"test_",
+						"tests/test_biochem.py"
+					],
+					[
+						"euler",
+						"src/nest/pmap/EulerAnglesMap.gtest.cpp"
+					],
+					[
+						"cma",
+						"CMakeLists.txt"
+					],
+					[
+						"cmak",
+						"CMakeLists.txt"
+					],
+					[
+						"eulr",
+						"src/nest/pmap/EulerAnglesMap.gtest.cpp"
+					],
+					[
+						"visp",
+						"src/visual/vispymol.py"
+					],
+					[
+						"cp_f",
+						"tools/cp_filtered.py"
+					],
+					[
+						"cmakel",
+						"CMakeLists.txt"
+					],
+					[
+						"setup",
+						"setup.py"
+					],
+					[
+						"sublme-",
+						"ide/rif.sublime-project"
+					],
+					[
+						"test_vis",
+						"tests/test_visual.py"
+					],
+					[
+						"gen__",
+						"jigs/gen__init__.py"
+					],
+					[
+						"__init",
+						"src/__init__.py"
+					],
+					[
+						"test_num",
+						"src/test/test_numpy.py"
+					],
+					[
+						"pytest.ini",
+						"pytest.ini"
+					],
+					[
+						"rcl",
+						"src/util/rcl.py"
+					],
+					[
+						"__init__",
+						"src/__init__.py"
+					],
+					[
+						"bioche",
+						"biochem.py"
+					],
+					[
+						"visual",
+						"src/visualize/vispymol.py"
+					],
+					[
+						"test_kar",
+						"tests/test_karney.py"
+					],
+					[
+						"test_rcl",
+						"tests/test_rcl.py"
+					],
+					[
+						"test_bio",
+						"tests/test_biochem.py"
+					],
+					[
+						"gen__ini",
+						"jigs/gen__init__.py"
+					],
+					[
+						"todo",
+						"log/TODO.txt"
+					],
+					[
+						"gytest",
+						"log/pytest.log"
+					],
+					[
+						"build",
+						"jigs/build_utils.py"
+					],
+					[
+						"build_and",
+						"jigs/build_and_run_pytest.py"
+					],
+					[
+						"cub",
+						"src/numeric/cube_to_sphere.gtest.cpp"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"orien",
+						"src/sampling/orientations.hpp"
+					],
+					[
+						"exam",
+						"src/test/example.py"
+					],
+					[
+						"obj",
+						"src/objective/ObjectiveFunction.hpp"
+					],
+					[
+						"scene",
+						"src/kinematics/Scene.hpp"
+					],
+					[
+						"riflib",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"cmake",
+						"CMakeLists.txt"
+					],
+					[
+						"readm",
+						"README.txt"
+					],
+					[
+						"sourceg",
+						"devtools/sourcegen.py"
+					],
+					[
+						"srcgen",
+						"src/sourcegen.py"
+					],
+					[
+						"setup.py",
+						"setup.py"
+					],
+					[
+						"test",
+						"tests/test_riflib_import.py"
+					],
+					[
+						"sourcegen",
+						"src/sourcegen.py"
+					],
+					[
+						"test_riflib",
+						"tests/test_riflib_import.py"
+					],
+					[
+						"test_py",
+						"tests/test_numpy.py"
+					],
+					[
+						"bui",
+						"devtools/build_and_run_pytest.py"
+					],
+					[
+						"build_",
+						"devtools/build_utils.py"
+					],
+					[
+						"cm",
+						"CMakeLists.txt"
+					],
+					[
+						"sour",
+						"src/sourcegen.py"
+					],
+					[
+						"riflib.",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"wip",
+						"src/test/gtest_wip.cpp"
+					],
+					[
+						"cache",
+						"src/riflib/io/cache.hpp"
+					],
+					[
+						"gtest_wi",
+						"log/gtest_wip.log"
+					],
+					[
+						"gtest.",
+						"src/riflib/chemical/stub.gtest.cpp"
+					],
+					[
+						"riflib.gen",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"examp",
+						"src/test/example.pybind.cpp"
+					],
+					[
+						"riflib.py",
+						"src/riflib.pybind.cpp"
+					],
+					[
+						"re",
+						"README.txt"
+					],
+					[
+						"pigen",
+						"src/riflib/numeric/pigen.pybind.cpp"
+					],
+					[
+						"jinj",
+						"src/riflib.pybind.cpp.jinja"
+					],
+					[
+						"test_nu",
+						"tests/test_numpy.py"
+					],
+					[
+						"pybind.cpp",
+						"src/riflib.pybind.cpp"
+					],
+					[
+						"pybind.",
+						"src/riflib/numeric/pigen.pybind.cpp"
+					],
+					[
+						"pybind",
+						"src/test/test_numpy.pybind.cpp"
+					],
+					[
+						"numpy",
+						"tests/test_numpy.py"
+					],
+					[
+						"cube",
+						"src/riflib/numeric/cube_to_sphere.gtest.cpp"
+					],
+					[
+						"setup.p",
+						"setup.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 110.0,
+				"last_filter": "build_and",
+				"selected_items":
+				[
+					[
+						"build_and",
+						"build_and_run_pytest"
+					],
+					[
+						"rotamers",
+						"RotamerScore"
+					],
+					[
+						"",
+						"BodyTplt"
+					]
+				],
+				"width": 700.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 346.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"quat",
+						"quaternion_set_with_covering_radius_degrees"
+					],
+					[
+						"ori",
+						"orientations"
+					],
+					[
+						"karne",
+						"karney_name_by_radius"
+					],
+					[
+						"quatern",
+						"quaternion_set_by_name"
+					],
+					[
+						"qu",
+						"quaternion_set_by_name"
+					],
+					[
+						"kar",
+						"karney_index"
+					],
+					[
+						"data",
+						"DATA_PATH"
+					],
+					[
+						"read",
+						"read_karney_orientation_file"
+					],
+					[
+						"karn",
+						"karney_set_with_covering_radius_degrees"
+					],
+					[
+						"mkdi",
+						"mkdir_if_necessary"
+					],
+					[
+						"cmake",
+						"CMAKE_SOURCE_DIR"
+					],
+					[
+						"CMAKE",
+						"CMAKE_LIBRARY_OUTPUT_DIRECTORY"
+					],
+					[
+						"CMAK",
+						"CMAKE_SOURCE_DIR"
+					],
+					[
+						"dir",
+						"directories"
+					],
+					[
+						"upda",
+						"update_file_if_needed"
+					],
+					[
+						"c",
+						"cpp"
+					],
+					[
+						"def",
+						"def_submodule\tpybind11::module def_submodule(const char *name)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/sheffler/rif/src/visual/vispymol.py",
+					"settings":
+					{
+						"buffer_size": 407,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/.config/terminator/config",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/tools/cp_filtered.py",
+					"settings":
+					{
+						"buffer_size": 531,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/tools/pybind_source_gen.py",
+					"settings":
+					{
+						"buffer_size": 4350,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "from __future__ import absolute_import, division, print_function\n\nimport os\nimport re\nimport sys\nimport platform\nimport subprocess\nimport multiprocessing\n\nfrom setuptools import setup, Extension, find_packages\nfrom setuptools.command.build_ext import build_ext\nfrom distutils.version import LooseVersion\n\n\ndef which(program):\n    import os\n\n    def is_exe(fpath):\n        return os.path.isfile(fpath) and os.access(fpath, os.X_OK)\n\n    fpath, fname = os.path.split(program)\n    if fpath:\n        if is_exe(program):\n            return program\n    else:\n        for path in os.environ[\"PATH\"].split(os.pathsep):\n            path = path.strip('\"')\n            exe_file = os.path.join(path, program)\n            if is_exe(exe_file):\n                return exe_file\n\n    return None\n\n\ndef infer_config(path):\n    path = path.split('/')[0]\n    if path.startswith('build_setup_py_'):\n        return path.replace('build_setup_py_', '')\n\n\nclass CMakeExtension(Extension):\n\n    def __init__(self, name, sourcedir=''):\n        Extension.__init__(self, name, sources=[])\n        self.sourcedir = os.path.abspath(sourcedir)\n\n\nclass CMakeBuild(build_ext):\n\n    def run(self):\n        try:\n            out = subprocess.check_output(['cmake', '--version'])\n        except OSError:\n            raise RuntimeError(\n                \"CMake must be installed to build the following extensions: \" +\n                \", \".join(e.name for e in self.extensions))\n\n        if platform.system() == \"Windows\":\n            cmake_version = LooseVersion(\n                re.search(r'version\\s*([\\d.]+)', out.decode()).group(1))\n            if cmake_version < '3.1.0':\n                raise RuntimeError(\"CMake >= 3.1.0 is required on Windows\")\n\n        for ext in self.extensions:\n            self.build_extension(ext)\n\n    def build_extension(self, ext):\n        extdir = os.path.abspath(os.path.dirname(\n            self.get_ext_fullpath(ext.name)))\n        cmake_args = ['-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=' + extdir,\n                      '-DPYTHON_EXECUTABLE=' + sys.executable,\n                      ]\n        if which('ninja'):\n            cmake_args.append('-GNinja')\n\n        cfg = infer_config(self.build_temp)\n        if not cfg:\n            cfg = 'Debug' if self.debug else 'Release'\n        build_args = ['--config', cfg]\n\n        if platform.system() == \"Windows\":\n            cmake_args += [\n                '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_{}={}'.format(cfg.upper(), extdir)]\n            if sys.maxsize > 2**32:\n                cmake_args += ['-A', 'x64']\n            build_args += ['--', '/m']\n        else:\n            cmake_args += ['-DCMAKE_BUILD_TYPE=' + cfg]\n            # build_args += ['--', '-j'+str(multiprocessing.cpu_count()), 'rif']\n            build_args += ['--', '-j' + str(multiprocessing.cpu_count())]\n        build_args.append('rif_cpp')\n        env = os.environ.copy()\n        env['CXXFLAGS'] = '{} -DVERSION_INFO=\\\\\"{}\\\\\"'.format(\n            env.get('CXXFLAGS', ''),\n            self.distribution.get_version())\n        if not os.path.exists(self.build_temp):\n            os.makedirs(self.build_temp)\n        subprocess.check_call(['cmake', ext.sourcedir] +\n                              cmake_args, cwd=self.build_temp, env=env)\n        subprocess.check_call(['cmake', '--build', '.'] +\n                              build_args, cwd=self.build_temp)\n\n\nsetup(\n    name='rif',\n    version='0.0.1',\n    author='Will Sheffler',\n    author_email='willsheffler@gmail.com',\n    description='Rotamer Interaction Field protein design library',\n    long_description='',\n    url='https://github.com/willsheffler/rif',\n    ext_modules=[CMakeExtension('rif_cpp')],\n    cmdclass=dict(build_ext=CMakeBuild),\n    zip_safe=False,\n    setup_requires=['wheel', 'pytest-runner'],\n    tests_require=['pytest', 'pytest-xdist', 'tox',\n                   'hypothesis', 'colorama', 'pytest_cpp', 'jinja2'],\n    test_suite='pytest',\n)\n",
+					"file": "/home/sheffler/rif/setup.py",
+					"file_size": 3939,
+					"file_write_time": 131324098414478642,
+					"settings":
+					{
+						"buffer_size": 3917,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/log/TODO.txt",
+					"settings":
+					{
+						"buffer_size": 319,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/ide/rif.sublime-project",
+					"settings":
+					{
+						"buffer_size": 1508,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/log/pytest.log",
+					"settings":
+					{
+						"buffer_size": 1448,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/pytest.ini",
+					"settings":
+					{
+						"buffer_size": 147,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/tox.ini",
+					"settings":
+					{
+						"buffer_size": 652,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/env/.gitignore",
+					"settings":
+					{
+						"buffer_size": 28,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/requirements.txt",
+					"settings":
+					{
+						"buffer_size": 127,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/src/sampling/orientations.py",
+					"settings":
+					{
+						"buffer_size": 1200,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/rif/src/rif.gen.cpp",
+					"settings":
+					{
+						"buffer_size": 1535,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 6742,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheffler/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1088,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 318.0,
+				"last_filter": "autop",
+				"selected_items":
+				[
+					[
+						"autop",
+						"Anaconda: Autoformat PEP8 Errors"
+					],
+					[
+						"pref",
+						"Preferences: Settings"
+					],
+					[
+						"prefer",
+						"Preferences: Settings"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"restore",
+						"Origami: Restore Saved Layout"
+					],
+					[
+						"save",
+						"Origami: Save Current Layout"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"Settings",
+						"Preferences: Settings – Syntax Specific"
+					],
+					[
+						"autofor",
+						"Anaconda: Autoformat PEP8 Errors"
+					],
+					[
+						"settin",
+						"Preferences: Settings"
+					],
+					[
+						"sett",
+						"Preferences: Settings"
+					],
+					[
+						"new",
+						"ANF: New File"
+					],
+					[
+						"orig",
+						"Origami: Destroy Current Pane"
+					],
+					[
+						"pep",
+						"Anaconda: Autoformat PEP8 Errors"
+					],
+					[
+						"type",
+						"Set Syntax: Python Extended"
+					],
+					[
+						"origa",
+						"Origami: Create Pane Above"
+					],
+					[
+						"glue",
+						"Glue - Launch"
+					],
+					[
+						"pep8",
+						"User: Python PEP8 Autoformat"
+					],
+					[
+						"open res",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resourcev",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"resou",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"todo",
+						"TodoReview: Open Files"
+					],
+					[
+						"ora",
+						"Origami: Create and Focus Pane Below"
+					],
+					[
+						"buildv",
+						"Disable/Enable buildview for this window"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"save all",
+						"File: Save All"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"cancel",
+						"Build: Cancel"
+					],
+					[
+						"ref",
+						"Project: Refresh Folders"
+					],
+					[
+						"format",
+						"Clang Format: Format Selection"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"keyb",
+						"Preferences: Key Bindings"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"lint",
+						"SublimeLinter: Lint This View"
+					],
+					[
+						"enable lin",
+						"SublimeLinter: Disable Linter"
+					],
+					[
+						"toggle lin",
+						"SublimeLinter: Toggle Linter"
+					],
+					[
+						"gitgu",
+						"Git: Gui"
+					],
+					[
+						"pack",
+						"Install Package Control"
+					]
+				],
+				"width": 728.0
+			},
+			"console":
+			{
+				"height": 367.0,
+				"history":
+				[
+					"print sys.environ",
+					"import sys",
+					"print(sys.path)",
+					"print sys.path",
+					"import sys",
+					"print(sys.path)",
+					"print sys.path",
+					"print('poo')",
+					"print 'poo'"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": true
+			},
+			"expanded_folders":
+			[
+				"/home/sheffler/rif"
+			],
+			"file_history":
+			[
+				"/home/sheffler/.config/terminator/config",
+				"/home/sheffler/.bashrc",
+				"/home/sheffler/.bash",
+				"/etc/fstab",
+				"/home/sheffler/.ssh/config",
+				"/home/sheffler/rif/CMakeLists.txt",
+				"/home/sheffler/rif/tools/gen__init__.py",
+				"/home/sheffler/rif/tests/test_rcl.py",
+				"/home/sheffler/rif/src/util/rcl.py",
+				"/home/sheffler/rif/setup.py",
+				"/home/sheffler/rif/.gitignore",
+				"/home/sheffler/rif/tests/test_karney.py",
+				"/home/sheffler/rif/setup.cfg",
+				"/home/sheffler/rif/tools/build_utils.py",
+				"/usr/local/bin/pytest",
+				"/usr/local/bin/pip",
+				"/usr/local/lib/python3.5/dist-packages/rif/sampling/orientations.py",
+				"/home/sheffler/rif/src/sampling/orientations.py",
+				"/home/sheffler/rif/data/orientations/karney/index.dat",
+				"/usr/bin/virtualenv",
+				"/home/sheffler/virtualenv",
+				"/etc/rc.local",
+				"/home/sheffler/rif/LICENSE.txt",
+				"/home/sheffler/.pypirc",
+				"/home/sheffler/env/k400_swap_alt_win.sh",
+				"/home/sheffler/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/sheffler/rif/tools/cp_filtered.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Origami.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+				"/home/sheffler/rif/tests/test_biochem.py",
+				"/home/sheffler/rif/tests/test_visual.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/sheffler/.alias",
+				"/home/sheffler/.local/lib/python2.7/site-packages/local.pth",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/sheffler/rif/src/visual/vispymol.py",
+				"/home/sheffler/rif/src/nest/pmap/EulerAnglesMap.gtest.cpp",
+				"/home/sheffler/rif/src/visual/setup.py",
+				"/usr/lib/python2.7/distutils/core.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings",
+				"/etc/default/keyboard",
+				"/home/sheffler/.pymolrc",
+				"/home/sheffler/rif/pytest.ini",
+				"/home/sheffler/rif/tools/clean.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+				"/home/sheffler/rif/ide/rif.sublime-project",
+				"/home/sheffler/rif/jigs/gen__init__.py",
+				"/home/sheffler/rif/src/__init__.py",
+				"/home/sheffler/rif/src/test/test_numpy.py",
+				"/home/sheffler/rif/src/actor/Atom.hpp",
+				"/home/sheffler/rif/src/chem/RotamerIndex.hpp",
+				"/home/sheffler/rif/src/chem/ligand_factory.lib.cpp",
+				"/home/sheffler/rif/src/chem/stub.gtest.cpp",
+				"/home/sheffler/rif/src/io/dump_pdb_atom.hpp",
+				"/home/sheffler/rif/src/objective/methods/hbond_5dof.gtest.cpp",
+				"/home/sheffler/rif/src/test/gtest_wip.cpp",
+				"/boot/efi/EFI/refind/refind.conf",
+				"/home/sheffler/sw/pyrosetta/PyRosetta4.MinSizeRel.python27.ubuntu.release-132/self-test.py",
+				"/etc/fuse.conf",
+				"/home/sheffler/rif/jigs/sloc.sh",
+				"/home/sheffler/bin/rospy_toggle",
+				"/home/sheffler/.local/lib/python2.7/site-packages/easy-install.pth",
+				"/home/sheffler/env/.path",
+				"/home/sheffler/env/bin/rospy_toggle",
+				"/usr/local/bin/ipython",
+				"/home/sheffler/rif/src/chemical/__init__.py",
+				"/home/sheffler/rif/biochem.py",
+				"/home/sheffler/rif/src/visualize/vispymol.py",
+				"/home/sheffler/riflib/jigs/build_utils.py",
+				"/home/sheffler/riflib/pytest.ini",
+				"/home/sheffler/tmp/tmp.diff",
+				"/home/sheffler/riflib/src/sampling/orientations.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+				"/home/sheffler/riflib/jigs/jigs/build_and_run_pytest.py",
+				"/home/sheffler/riflib/src/sampling/orientations.pybind.cpp",
+				"/home/sheffler/riflib/CMakeLists.txt",
+				"/home/sheffler/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/pep8_autoformat.sublime-settings",
+				"/home/sheffler/riflib/jigs/build_and_run_pytest.py",
+				"/home/sheffler/riflib/src/numeric/cube_to_sphere.gtest.cpp",
+				"/home/sheffler/riflib/src/numeric/cube_to_sphere.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme.sublime-theme",
+				"/home/sheffler/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/sheffler/riflib/tests/test_karney.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/usr/lib/python2.7/distutils/dist.py",
+				"/usr/lib/python2.7/distutils/command/build.py",
+				"/usr/lib/python2.7/distutils/cmd.py",
+				"/home/sheffler/riflib/ide/setup.py",
+				"/usr/lib/python2.7/subprocess.py",
+				"/home/sheffler/riflib/src/riflib.gen.cpp",
+				"/setup.py",
+				"/home/sheffler/riflib/README.md",
+				"/home/sheffler/riflib/src/test/test_numpy.py",
+				"/home/sheffler/riflib/tests/test_riflib_import.py",
+				"/home/sheffler/riflib/tests/test_hypothesis.py",
+				"/home/sheffler/riflib/src/test/example.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+				"/home/sheffler/riflib/src/objective/ObjectiveFunction.hpp",
+				"/home/sheffler/riflib/src/objective/ObjectiveFunction.hpp.tmp",
+				"/home/sheffler/riflib/src/kinematics/Scene.hpp",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/clang_format.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
+				"/home/sheffler/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/sheffler/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+				"/home/sheffler/sublime/.gitignore",
+				"/home/sheffler/rif/docs/index.rst",
+				"/home/sheffler/riflib/docs/index.rst",
+				"/home/sheffler/scheme/doc/index.rst",
+				"/home/sheffler/riflib/jigs/cp_filtered.py",
+				"/home/sheffler/.profile",
+				"/home/sheffler/riflib/jigs/build_docs_html.py",
+				"/home/sheffler/riflib/src/sampling/orientations.py",
+				"/home/sheffler/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings",
+				"/home/sheffler/riflib/jigs/pybind_source_gen.py",
+				"/home/sheffler/riflib/jigs/cmake_build_and_run_pytest.py",
+				"/home/sheffler/riflib/jigs/build_and_run_gtest_wip.py",
+				"/home/sheffler/riflib/ide/riflib.sublime-project",
+				"/home/sheffler/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+				"/home/sheffler/riflib/README.txt",
+				"/home/sheffler/rosetta/master/source/src/basic/sampling/orientations/QuaternionGrid.cc",
+				"/home/sheffler/riflib/setup.py"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 200.0,
+				"where_history":
+				[
+					"",
+					"src/"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"line",
+					"split",
+					"BytesIO",
+					"StringIO",
+					"ninja",
+					"gtest_all",
+					"LooseVer",
+					"norm",
+					"alt",
+					"shift",
+					" \"",
+					"d",
+					"left",
+					"down",
+					"right",
+					"up",
+					"path",
+					"pymol",
+					"CMAKE_CXX",
+					"LogicError",
+					"jigs",
+					"core.chem",
+					"\"chemical/",
+					".chemical.",
+					"/chemical/",
+					"make_init_if_necessary",
+					"prompt",
+					"x",
+					"rif_is_installed",
+					"is_devel_install",
+					"glue_userpath",
+					"Xform",
+					"appbar",
+					"tab",
+					"Z",
+					"z = Z",
+					" = ",
+					"Float",
+					"Z",
+					" = ",
+					"=",
+					"Z",
+					" = ",
+					"=",
+					" =",
+					"Matrix4Xd",
+					"MatrixXd",
+					"l",
+					"py",
+					"module",
+					"(",
+					"\\",
+					"sourcegen",
+					" '",
+					"sourcegen.py",
+					"devtools/",
+					"cover",
+					"# ",
+					")",
+					"  )",
+					",",
+					"\",",
+					"# (\"",
+					"# #",
+					"#        ",
+					"by_radius",
+					"_.push_back(QuatDBMetadata",
+					"CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+					"lib_location",
+					"home",
+					"loc",
+					"cmake",
+					"mkdirp",
+					"mkfilep",
+					"d",
+					"pyfile",
+					"iprefix",
+					"riflib",
+					"#include \"riflib/",
+					"riflib",
+					"_riflib",
+					"target_link",
+					"\"riflib/",
+					"PackSet",
+					"cin",
+					"());\n",
+					"rdbuf()",
+					"this->this->",
+					"gptr()",
+					"egptr()",
+					"pptr",
+					"rdbuf",
+					"cin",
+					"aoistarsaorestniera",
+					"aoriitirantsaironsteiarnsitnarisntiearnstoinareistnarisnti",
+					"code",
+					"forward",
+					"pyfiles",
+					"pybindfiles",
+					"template_src",
+					"template_file",
+					"template",
+					"f",
+					"k",
+					"v",
+					"o",
+					"pyfiles",
+					"f",
+					"template",
+					"Template",
+					"template",
+					"'src/riflib.pybind.cpp.jinja'",
+					"'src/riflib.pybind.cpp'",
+					"'src/riflib.pybind.cpp.TMP'",
+					"pigen",
+					"something",
+					"k",
+					"init",
+					"auto",
+					"riflib",
+					"rifb",
+					"BUILD_PYTHON_BINDINGS",
+					">>>",
+					"\n>>>",
+					">>>",
+					"from"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\"chem/",
+					".chem.",
+					"/chem/",
+					"jigs/",
+					"#include \""
+				],
+				"reverse": false,
+				"show_context": false,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/sheffler/rif/src/visual/vispymol.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 407,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										29,
+										29
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".>:",
+											"selector": "source.c++ - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".>:",
+											"selector": "source.c - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/sheffler/.config/terminator/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1368,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										661,
+										661
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/sheffler/rif/tools/cp_filtered.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 531,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										531,
+										531
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".>:",
+											"selector": "source.c++ - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".>:",
+											"selector": "source.c - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/sheffler/rif/tools/pybind_source_gen.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4350,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										708,
+										708
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".>:",
+											"selector": "source.c++ - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".>:",
+											"selector": "source.c - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/sheffler/rif/setup.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3917,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										164,
+										164
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 5,
+							"file": "/home/sheffler/rif/log/TODO.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 319,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										319,
+										319
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"history_list_is_closing": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/sheffler/rif/ide/rif.sublime-project",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1508,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										199,
+										199
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												224,
+												225
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/double_quote.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												141,
+												142
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 15,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 7,
+							"file": "/home/sheffler/rif/log/pytest.log",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1448,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/sheffler/rif/pytest.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 147,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										124,
+										124
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"history_list_is_closing": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/sheffler/rif/tox.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 652,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										649,
+										649
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 295.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/home/sheffler/env/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 28,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										28,
+										28
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/home/sheffler/rif/requirements.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 127,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										38,
+										38
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"syntax": "Packages/requirementstxt/requirementstxt.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 12,
+							"file": "/home/sheffler/rif/src/sampling/orientations.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1200,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										584,
+										584
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".>:",
+											"selector": "source.c++ - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".>:",
+											"selector": "source.c - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												583,
+												584
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/round_bracket.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												581,
+												582
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"history_list_is_closing": true,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 150.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/home/sheffler/rif/src/rif.gen.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1535,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"syntax": "Packages/C++11/C++11.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 14,
+							"file": "/home/sheffler/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6742,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										375,
+										375
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+											"1":
+											[
+												0,
+												1
+											]
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"edit_settings_other_view_id": 63,
+									"edit_settings_view": "user",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "/home/sheffler/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1088,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										101,
+										101
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												102,
+												103
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/double_quote.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												80,
+												81
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"edit_settings_other_view_id": 47,
+									"edit_settings_view": "user",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 86.0
+			},
+			"input":
+			{
+				"height": 133.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						1,
+						0,
+						2,
+						3
+					],
+					[
+						2,
+						2,
+						3,
+						3
+					],
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						2,
+						0,
+						3,
+						2
+					],
+					[
+						0,
+						1,
+						1,
+						3
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.333333333333,
+					0.666666666667,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.333333333333,
+					0.666666666667,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 70.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "cmake_build_and_run_pytest_thisfile",
+			"position": "0,1,0,0,0,0,0,0,0,2880,1800",
+			"project": "/home/sheffler/rif/ide/rif.sublime-project",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": false,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"setup.py",
+						"setup.py"
+					],
+					[
+						"rif.gen.",
+						"src/rif.gen.cpp"
+					],
+					[
+						"pybind_sou",
+						"tools/pybind_source_gen.py"
+					],
+					[
+						"cmakel",
+						"CMakeLists.txt"
+					],
+					[
+						"cp_fil",
+						"tools/cp_filtered.py"
+					],
+					[
+						"gen__ini",
+						"tools/gen__init__.py"
+					],
+					[
+						"rcl",
+						"src/util/rcl.py"
+					],
+					[
+						"vis",
+						"src/visual/vispymol.py"
+					],
+					[
+						"setup",
+						"setup.py"
+					],
+					[
+						"gen_ini",
+						"tools/gen__init__.py"
+					],
+					[
+						"build_u",
+						"tools/build_utils.py"
+					],
+					[
+						"proj",
+						"ide/rif.sublime-project"
+					],
+					[
+						"pytest",
+						"pytest.ini"
+					],
+					[
+						"karn",
+						"tests/test_karney.py"
+					],
+					[
+						"orientat",
+						"src/sampling/orientations.py"
+					],
+					[
+						"kar",
+						"tests/test_karney.py"
+					],
+					[
+						"test_",
+						"tests/test_biochem.py"
+					],
+					[
+						"euler",
+						"src/nest/pmap/EulerAnglesMap.gtest.cpp"
+					],
+					[
+						"cma",
+						"CMakeLists.txt"
+					],
+					[
+						"cmak",
+						"CMakeLists.txt"
+					],
+					[
+						"eulr",
+						"src/nest/pmap/EulerAnglesMap.gtest.cpp"
+					],
+					[
+						"visp",
+						"src/visual/vispymol.py"
+					],
+					[
+						"cp_f",
+						"tools/cp_filtered.py"
+					],
+					[
+						"sublme-",
+						"ide/rif.sublime-project"
+					],
+					[
+						"test_vis",
+						"tests/test_visual.py"
+					],
+					[
+						"gen__",
+						"jigs/gen__init__.py"
+					],
+					[
+						"__init",
+						"src/__init__.py"
+					],
+					[
+						"test_num",
+						"src/test/test_numpy.py"
+					],
+					[
+						"pytest.ini",
+						"pytest.ini"
+					],
+					[
+						"__init__",
+						"src/__init__.py"
+					],
+					[
+						"bioche",
+						"biochem.py"
+					],
+					[
+						"visual",
+						"src/visualize/vispymol.py"
+					],
+					[
+						"test_kar",
+						"tests/test_karney.py"
+					],
+					[
+						"test_rcl",
+						"tests/test_rcl.py"
+					],
+					[
+						"test_bio",
+						"tests/test_biochem.py"
+					],
+					[
+						"todo",
+						"log/TODO.txt"
+					],
+					[
+						"gytest",
+						"log/pytest.log"
+					],
+					[
+						"build",
+						"jigs/build_utils.py"
+					],
+					[
+						"build_and",
+						"jigs/build_and_run_pytest.py"
+					],
+					[
+						"cub",
+						"src/numeric/cube_to_sphere.gtest.cpp"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"orien",
+						"src/sampling/orientations.hpp"
+					],
+					[
+						"exam",
+						"src/test/example.py"
+					],
+					[
+						"obj",
+						"src/objective/ObjectiveFunction.hpp"
+					],
+					[
+						"scene",
+						"src/kinematics/Scene.hpp"
+					],
+					[
+						"riflib",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"cmake",
+						"CMakeLists.txt"
+					],
+					[
+						"readm",
+						"README.txt"
+					],
+					[
+						"sourceg",
+						"devtools/sourcegen.py"
+					],
+					[
+						"srcgen",
+						"src/sourcegen.py"
+					],
+					[
+						"test",
+						"tests/test_riflib_import.py"
+					],
+					[
+						"sourcegen",
+						"src/sourcegen.py"
+					],
+					[
+						"test_riflib",
+						"tests/test_riflib_import.py"
+					],
+					[
+						"test_py",
+						"tests/test_numpy.py"
+					],
+					[
+						"bui",
+						"devtools/build_and_run_pytest.py"
+					],
+					[
+						"build_",
+						"devtools/build_utils.py"
+					],
+					[
+						"cm",
+						"CMakeLists.txt"
+					],
+					[
+						"sour",
+						"src/sourcegen.py"
+					],
+					[
+						"riflib.",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"wip",
+						"src/test/gtest_wip.cpp"
+					],
+					[
+						"cache",
+						"src/riflib/io/cache.hpp"
+					],
+					[
+						"gtest_wi",
+						"log/gtest_wip.log"
+					],
+					[
+						"gtest.",
+						"src/riflib/chemical/stub.gtest.cpp"
+					],
+					[
+						"riflib.gen",
+						"src/riflib.gen.cpp"
+					],
+					[
+						"examp",
+						"src/test/example.pybind.cpp"
+					],
+					[
+						"riflib.py",
+						"src/riflib.pybind.cpp"
+					],
+					[
+						"re",
+						"README.txt"
+					],
+					[
+						"pigen",
+						"src/riflib/numeric/pigen.pybind.cpp"
+					],
+					[
+						"jinj",
+						"src/riflib.pybind.cpp.jinja"
+					],
+					[
+						"test_nu",
+						"tests/test_numpy.py"
+					],
+					[
+						"pybind.cpp",
+						"src/riflib.pybind.cpp"
+					],
+					[
+						"pybind.",
+						"src/riflib/numeric/pigen.pybind.cpp"
+					],
+					[
+						"pybind",
+						"src/test/test_numpy.pybind.cpp"
+					],
+					[
+						"numpy",
+						"tests/test_numpy.py"
+					],
+					[
+						"cube",
+						"src/riflib/numeric/cube_to_sphere.gtest.cpp"
+					],
+					[
+						"setup.p",
+						"setup.py"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 110.0,
+				"last_filter": "build_and",
+				"selected_items":
+				[
+					[
+						"build_and",
+						"build_and_run_pytest"
+					],
+					[
+						"rotamers",
+						"RotamerScore"
+					],
+					[
+						"",
+						"BodyTplt"
+					]
+				],
+				"width": 700.0
+			},
+			"selected_group": 2,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 346.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 88,
+			"workspace_name": "/home/sheffler/var/sublime-text-3/rif.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/sheffler/var/sublime-text-3/rif.sublime-workspace",
+			"/home/sheffler/rif/ide/rif.sublime-workspace",
+			"/home/sheffler/checkio/checkio.sublime-workspace",
+			"/home/sheffler/Dropbox/doc/check_io/check_io.sublime-workspace",
+			"/home/sheffler/riflib/ide/rif.sublime-workspace",
+			"/home/sheffler/riflib/ide/riflib.sublime-workspace",
+			"/home/sheffler/scheme/ide/scheme.sublime-workspace"
+		]
+	}
+}

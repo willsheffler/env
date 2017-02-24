@@ -1,0 +1,130 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="eDP-1">
+          <vendor>APP</vendor>
+          <product>0xa019</product>
+          <serial>0x00000000</serial>
+          <width>2880</width>
+          <height>1800</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="DP-2">
+      </output>
+      <output name="HDMI-1">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DP-0">
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="HDMI-0">
+      </output>
+      <output name="DP-2">
+          <vendor>APP</vendor>
+          <product>0xa019</product>
+          <serial>0x00000000</serial>
+          <width>2880</width>
+          <height>1800</height>
+          <rate>60</rate>
+          <x>543</x>
+          <y>2160</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-3">
+          <vendor>SAM</vendor>
+          <product>0x0d3b</product>
+          <serial>0x01000600</serial>
+          <width>3840</width>
+          <height>2160</height>
+          <rate>30</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-4">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DP-0">
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="HDMI-0">
+          <vendor>SAM</vendor>
+          <product>0x0d3b</product>
+          <serial>0x01000600</serial>
+          <width>3840</width>
+          <height>2160</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-2">
+          <vendor>APP</vendor>
+          <product>0xa019</product>
+          <serial>0x00000000</serial>
+          <width>2880</width>
+          <height>1800</height>
+          <rate>60</rate>
+          <x>517</x>
+          <y>2160</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-3">
+      </output>
+      <output name="DP-4">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="DP-0">
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="HDMI-0">
+      </output>
+      <output name="DP-2">
+          <vendor>APP</vendor>
+          <product>0xa019</product>
+          <serial>0x00000000</serial>
+          <width>2880</width>
+          <height>1800</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP-3">
+      </output>
+      <output name="DP-4">
+      </output>
+  </configuration>
+</monitors>

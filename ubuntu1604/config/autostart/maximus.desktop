@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=maximus
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=maximus
+Name=maximus
+Comment[en_US]=
+Comment=

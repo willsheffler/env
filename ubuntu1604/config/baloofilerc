@@ -1,0 +1,5 @@
+[General]
+dbVersion=2
+exclude filters=cmake_install.cmake,confdefs.h,core-dumps,.bzr,po,CMakeFiles,*~,*.gmo,Makefile.am,*.tmp,.pch,*.loT,*.orig,.histfile.*,autom4te,*.la,*.class,CTestTestfile.cmake,config.status,.obj,*.vm*,.git,*.lo,.moc,.xsession-errors*,CVS,CMakeTmpQmake,qrc_*.cpp,CMakeCache.txt,confstat,*.swap,*.nvram,CMakeTmp,*.omf,*.moc,*.pc,*.part,.uic,lzo,*.m4,__pycache__,_darcs,libtool,*.rcore,moc_*.cpp,ui_*.h,*.pyc,*.elc,conftest,*.csproj,.hg,*.o,*.aux,*.po,.svn,lost+found,*.rej,litmain.sh
+exclude filters version=2
+first run=false
