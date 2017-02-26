@@ -44,5 +44,5 @@
 	"use_pylint": false,
 	"validate_imports": true,
 	"word_wrap": true,
-	"origami_auto_zoom_on_focus":0.33,
+	// "origami_auto_zoom_on_focus":0.33,
 }
