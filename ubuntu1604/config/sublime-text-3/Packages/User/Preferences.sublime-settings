@@ -18,11 +18,11 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 9,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -43,6 +43,5 @@
 	"translate_tabs_to_spaces": true,
 	"use_pylint": false,
 	"validate_imports": true,
-	"word_wrap": true,
-	// "origami_auto_zoom_on_focus":0.33,
+	"word_wrap": true
 }

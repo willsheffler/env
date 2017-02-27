@@ -14,7 +14,7 @@
 	{ "keys": ["ctrl+x"], "command": "cut" },
 	{ "keys": ["ctrl+c"], "command": "copy" },
 	{ "keys": ["ctrl+y"], "command": "paste" },
-    { "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
+    // { "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
 
 
 //	{ "keys": ["alt+q"], "command": "exit" },
@@ -37,8 +37,8 @@
     //UP DOWN LEFT RIGHT
     { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
     { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
-    { "keys": ["ctrl+shift+p"], "command": "swap_line_up" },
-    { "keys": ["ctrl+shift+n"], "command": "swap_line_down" },
+    { "keys": ["ctrl+shift+alt+p"], "command": "swap_line_up" },
+    { "keys": ["ctrl+shift+alt+n"], "command": "swap_line_down" },
     { "keys": ["shift+ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
     { "keys": ["shift+ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
     { "keys": ["shift+ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
@@ -120,7 +120,9 @@
 
     { "keys": ["ctrl+'"], "command": "pytest_toggle_panel" },
 
-    { "keys": ["ctrl+k"], "command": "move_to", "args": {"to": "hardeol", "extend": true }},
+    // { "keys": ["ctrl+k"], "command": "move_to", "args": {"to": "hardeol", "extend": true }},
+    { "keys": ["ctrl+k"], "command": "chain", "args": { "commands": 
+        [ ["move_to",{"to":"hardeol","extend":true}], ["cut"] ] } },
 
 
 
