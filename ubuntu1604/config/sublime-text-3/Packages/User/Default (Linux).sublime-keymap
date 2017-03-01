@@ -1,7 +1,10 @@
 [
 	// a few mac holdovers for comfort
 	{ "keys": ["alt+w"], "command": "close_file" }, 
-	{ "keys": ["alt+a"], "command": "select_all" }, 
+    { "keys": ["alt+a"], "command": "select_all" }, 
+    { "keys": ["alt+e"], "command": "expand_selection", "args": {"to": "word"} },
+    { "keys": ["alt+g"], "command": "find_under" }, 
+
 	
 	{ "keys": ["alt+b"], "command": "chain", "args": { "commands": [["save"],["build"]] } },
 	// { "keys": ["alt+b"], "command": "build" },
@@ -18,7 +21,7 @@
 
 
 //	{ "keys": ["alt+q"], "command": "exit" },
-	{ "keys": ["alt+r"], "command": "save" },
+	{ "keys": ["alt+s"], "command": "save" },
 	{ "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 
 
@@ -37,16 +40,16 @@
     //UP DOWN LEFT RIGHT
     { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
     { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
-    { "keys": ["ctrl+shift+alt+p"], "command": "swap_line_up" },
-    { "keys": ["ctrl+shift+alt+n"], "command": "swap_line_down" },
+    { "keys": ["ctrl+shift+p"], "command": "swap_line_up" },
+    { "keys": ["ctrl+shift+n"], "command": "swap_line_down" },
     { "keys": ["shift+ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
     { "keys": ["shift+ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
     { "keys": ["shift+ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
     { "keys": ["shift+ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
 	{ "keys": ["ctrl+alt+p"], "command": "move", "args": {"by": "pages", "forward": false} },
 	{ "keys": ["ctrl+alt+n"], "command": "move", "args": {"by": "pages", "forward": true} },
-	{ "keys": ["alt+shift+p"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["alt+shift+n"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["alt+p"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+n"], "command": "select_lines", "args": {"forward": true} },
 
 
    
