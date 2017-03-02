@@ -1,6 +1,7 @@
 [global_config]
-  enabled_plugins = LaunchpadBugURLHandler,
+  enabled_plugins = ,
   focus = system
+  scroll_tabbar = True
   title_font = Source Code Pro 9
   title_transmit_bg_color = "#d30102"
   title_use_system_font = False

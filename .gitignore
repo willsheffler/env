@@ -1,3 +1,17 @@
 *~
 *.pyc
-.emacs.d/session.*
+
+ubuntu1604/config/autostart/
+ubuntu1604/config/dconf/
+ubuntu1604/config/google-chrome/
+ubuntu1604/config/ibus/
+ubuntu1604/config/nautilus/
+ubuntu1604/config/pulse/
+ubuntu1604/config/sublime-text-3/Cache/
+ubuntu1604/config/sublime-text-3/Index/
+ubuntu1604/config/sublime-text-3/Local/
+ubuntu1604/config/sublime-text-3/Packages/User/Package Control.cache/
+ubuntu1604/config/sublime-text-3/Packages/User/Package Control.last-run
+ubuntu1604/config/mimeapps.list
+ubuntu1604/config/monitors.xml
+ubuntu1604/config/update-notifier/hooks_seen
