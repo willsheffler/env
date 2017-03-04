@@ -30,6 +30,8 @@
 		"SublimeLinter",
 		"SublimeLinter-pyflakes",
 		"TodoReview",
+		"Travis YML Lint",
+		"Travis-CI",
 		"Zeal"
 	]
 }
