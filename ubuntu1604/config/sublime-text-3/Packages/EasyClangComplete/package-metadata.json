@@ -1,1 +1,0 @@
-{"version": "3.3.2", "sublime_text": ">=3070", "dependencies": [], "url": "https://github.com/niosus/EasyClangComplete", "platforms": ["osx", "linux", "windows"], "description": "C/C++ autocompletion in Sublime Text 3 for human beings "}

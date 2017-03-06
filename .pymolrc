@@ -20,7 +20,7 @@ run ~/pymol/helix_util.py
 
 full
 
-run ~/pymol/test_gl.py
+run ~/pymol/gl_example.py
 
 #run ~/pymol/server.py
 #start_pymol_server()
