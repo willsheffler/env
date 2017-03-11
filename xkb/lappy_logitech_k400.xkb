@@ -57,7 +57,11 @@ xkb_keycodes "evdev_aliases(qwerty)" {
     <AB10> = 61;
     <RTSH> = 62;
     <KPMU> = 63;
+
     <LWIN> = 64;
+    <RALT> = 133;
+    <LALT> = 108;
+
     <SPCE> = 65;
     <CAPS> = 66;
     <FK01> = 67;
@@ -100,7 +104,7 @@ xkb_keycodes "evdev_aliases(qwerty)" {
     <RCTL> = 105;
     <KPDV> = 106;
     <PRSC> = 107;
-    <RALT> = 108;
+
     <LNFD> = 109;
     <HOME> = 110;
       <UP> = 111;
@@ -125,7 +129,8 @@ xkb_keycodes "evdev_aliases(qwerty)" {
     <HNGL> = 130;
     <HJCV> = 131;
     <AE13> = 132;
-    <LALT> = 133;
+
+
     <RWIN> = 134;
     <COMP> = 135;
     <STOP> = 136;

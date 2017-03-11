@@ -1,2 +1,5 @@
 *~
 *.pyc
+ide/env.sublime-workspace
+*.cache
+*.last-run

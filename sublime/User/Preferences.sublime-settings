@@ -3,6 +3,15 @@
 	{
 		"format_on_save": true
 	},
+	"added_words":
+	[
+		"pymol",
+		"xform",
+		"pyrosetta",
+		"resi",
+		"getrelframe",
+		"foo"
+	],
 	"afn_use_keybinding": true,
 	"anaconda_gutter_theme": "retina",
 	"anaconda_linter_mark_style": "stippled_underline",
@@ -19,7 +28,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 11,
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -30,7 +39,7 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_numbers": false,
+	"line_numbers": true,
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"material_theme_accent_lime": true,

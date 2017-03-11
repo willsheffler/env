@@ -2,3 +2,5 @@ alias st=subl
 alias gitdiff="git diff > $HOME/tmp/tmp.diff && subl $HOME/tmp/tmp.diff"
 alias st=subl
 alias toggle_stickies="wmctrl -i -r $(wmctrl -l|grep Sticky\ Notes|cut -b-10) -b toggle,above"
+alias xargs='xargs -d "\n"'
+alias rm='rm -i'
