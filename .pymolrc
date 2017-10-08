@@ -18,15 +18,14 @@ run ~/pymol/helix_util.py
 #run ~/pymol/inspector.py
 #run ~/pymol/misc/G222.py
 
-full
-
-run ~/pymol/gl_example.py
+# run ~/pymol/gl_example.py
 
 #run ~/pymol/server.py
 #start_pymol_server()
 
 #hide ev
 #show car
+
 
 # hide ev
 # show lines
@@ -372,3 +371,10 @@ print "delete all; run /Users/sheffler/pymol/inspector.py; inspect = Inspector()
 
 print '[ cmd.unbond("chain B and resi %i"%ir,"chain B and resi %i"%jr) for ir in range(1,6) for jr in range(ir+1,6) ]'
 
+
+
+
+
+hide (h. and (e. c extend 1))
+hide ev, name O
+show rib

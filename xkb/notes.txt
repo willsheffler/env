@@ -1,0 +1,13 @@
+dell 7720 
+==========
+
+use xev to get keycodes
+-------------------------
+133 lsuper
+64 lalt
+108 ralt
+105 rctl
+
+get current xkbcomp
+-------------------------
+xkbcomp $DISPLAY ~/env/xkb/dell7720.xkb

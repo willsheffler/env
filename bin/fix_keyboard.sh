@@ -18,6 +18,9 @@ elif [[ $HOSTNAME == "lappy" ]]; then
         # echo "k400 internal_id: $internal_id"
         # xkbcomp -i "$internal_id" "$HOME/env/xkb/lappy_internal_orig.xkb" "$DISPLAY"
     # done
+elif [[ $HOSTNAME == "phat" ]]; then
+    echo "================ on phat =========================="
+    xkbcomp "$HOME/env/xkb/dell7720.xkb" "$DISPLAY"
 else
     echo "don't know about hostname $HOSTNAME"
 fi

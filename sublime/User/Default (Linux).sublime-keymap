@@ -30,6 +30,9 @@
     { "keys": ["ctrl+alt+s"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
 
+    { "keys": ["ctrl+alt+tab"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+alt+shift+tab"], "command": "prev_view_in_stack" },
+
 
 
   	{ "keys": ["alt+enter"], "command": "toggle_full_screen" },
