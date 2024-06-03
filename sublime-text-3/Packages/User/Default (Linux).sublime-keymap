@@ -1,0 +1,338 @@
+[
+
+
+    // a few mac holdovers for comfort
+    { "keys": ["alt+w"], "command": "close_file" },
+    { "keys": ["alt+a"], "command": "select_all" },
+    { "keys": ["alt+e"], "command": "expand_selection", "args": {"to": "word"} },
+    { "keys": ["alt+g"], "command": "find_under" },
+
+
+    { "keys": ["alt+b"],      "command": "chain", "args": { "commands": [["save"],["build"]] } },
+    // { "keys": ["alt+ctrl+b"], "command": "chain", "args": { "commands": [["save"],["build",{"select":true}]] } },
+    { "keys": ["alt+ctrl+c"], "command": "cancel_build" },
+
+    // { "keys": ["alt+b"], "command": "build" },
+
+    { "keys": ["ctrl+alt+z"], "command": "redo" },
+    { "keys": ["alt+shift+z"], "command": "redo" },
+    { "keys": ["alt+k"], "command": "toggle_side_bar" },
+    { "keys": ["alt+shift+d"], "command": "find_under_expand_skip" },
+    // { "keys": ["alt+/"], "command": "toggle_comment" },
+    { "keys": ["ctrl+x"], "command": "cut" },
+    { "keys": ["ctrl+c"], "command": "copy" },
+    { "keys": ["ctrl+y"], "command": "paste" },
+    // { "keys": ["ctrl+v"], "command": "move", "args": {"by": "pages", "forward": true} },
+
+
+//  { "keys": ["alt+q"], "command": "exit" },
+    { "keys": ["alt+s"], "command": "save" },
+    { "keys": ["alt+shift+s"], "command": "save_as" },
+    { "keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+    { "keys": ["ctrl+alt+s"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+
+    { "keys": ["ctrl+alt+tab"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+alt+shift+tab"], "command": "prev_view_in_stack" },
+
+
+
+    { "keys": ["alt+enter"], "command": "toggle_full_screen" },
+    { "keys": ["alt+shift+enter"], "command": "toggle_distraction_free" },
+
+
+    { "keys": ["ctrl+d"], "command": "right_delete"},
+
+
+    { "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
+
+
+    //UP DOWN LEFT RIGHT
+    { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },2,
+    { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["alt+p"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+n"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["alt+shift+p"], "command": "swap_line_up" },
+    { "keys": ["alt+shift+n"], "command": "swap_line_down" },
+    { "keys": ["ctrl+shift+b"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+f"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["ctrl+shift+p"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+n"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+    { "keys": ["ctrl+alt+p"], "command": "move", "args": {"by": "pages", "forward": false} },
+    { "keys": ["ctrl+alt+n"], "command": "move", "args": {"by": "pages", "forward": true} },
+
+
+
+    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "hardbol", "extend": false }},
+    { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol", "extend": false }},
+    // { "keys": ["ctrl+alt+a"], "command": "prev_view" },
+    // { "keys": ["ctrl+alt+e"], "command": "next_view" },
+
+
+    // SUPER ALT
+    { "keys": ["ctrl+alt+i"], "command": "goto_symbol_in_project" },
+    { "keys": ["ctrl+alt+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files":true} },
+    { "keys": ["alt+x"],       "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
+
+    { "keys": ["alt+d"], "command": "find_under_expand" },
+
+    { "keys": ["ctrl+alt+d"], "command": "alignment" },
+
+    // auto-file-name
+    { "keys": ["alt+super+f"], "command": "afn_show_filenames",
+       "context":
+     [
+         { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
+     ]
+    },
+
+    // ORIGAMI
+    { "keys": ["ctrl+space", "ctrl+p"], "command": "travel_to_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+space", "ctrl+f"], "command": "travel_to_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+space", "ctrl+n"], "command": "travel_to_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+space", "ctrl+b"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+    { "keys": ["ctrl+space", "p"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+space", "f"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+space", "n"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+space", "b"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+
+    // { "keys": ["ctrl+space", "alt+ctrl+p"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+    // { "keys": ["ctrl+space", "alt+ctrl+f"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+    // { "keys": ["ctrl+space", "alt+ctrl+n"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+    // { "keys": ["ctrl+space", "alt+ctrl+b"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+    // You can also create the pane automatically with the following command (insert empty parameters):
+    // { "keys": [], "command": "create_pane_with_cloned_file", "args": {"direction": ""} }
+    { "keys": ["ctrl+space", "ctrl+shift+p"], "command": "create_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+space", "ctrl+shift+f"], "command": "create_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+space", "ctrl+shift+n"], "command": "create_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+space", "ctrl+shift+b"], "command": "create_pane", "args": {"direction": "left"} },
+    // You can also add  "give_focus": true to automatically focus on the new pane as follows:
+    // { "keys": [], "command": "create_pane", "args": {"direction": "", "give_focus": true} }
+    { "keys": ["ctrl+space", "ctrl+shift+alt+p"], "command": "destroy_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+space", "ctrl+shift+alt+f"], "command": "destroy_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+space", "ctrl+shift+alt+n"], "command": "destroy_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+space", "ctrl+shift+alt+b"], "command": "destroy_pane", "args": {"direction": "left"} },
+    // You can also destroy the current pane by binding the following command:
+    { "keys": ["ctrl+space", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+
+    // { "keys": ["ctrl+space", "ctrl+alt+ctrl+p"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+    // { "keys": ["ctrl+space", "ctrl+alt+ctrl+f"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+    // { "keys": ["ctrl+space", "ctrl+alt+ctrl+n"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+    // { "keys": ["ctrl+space", "ctrl+alt+ctrl+b"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+
+    // You can pull a file from another pane by binding the following command:
+    // { "keys": [], "command": "pull_file_from_pane", "args": { "direction": ""} }
+
+    { "keys": ["alt+v"], "command": "toggle_zoom_pane", "args": {"fraction": 0.7} }, 
+
+    { "keys": ["ctrl+space", "ctrl+enter"], "command": "zoom_pane", "args": {"fraction": 0.4} },
+    { "keys": ["ctrl+space", "ctrl+z"], "command": "set_layout", "args": {
+            "cells": [[2,0,3,3], [0,0,1,1],[0,2,2,3],[1,0,2,2],[0,1,1,2]],
+            "cols":[0.0,0.333333333333,0.666666666667,1.0],
+            "rows":[0.0,0.674724842767,0.863600628931,1.0]                     }  },
+    { "keys": ["ctrl+space", "ctrl+c"], "command": "resize_pane", "args": {"orientation": "cols"} },
+    { "keys": ["ctrl+space", "ctrl+r"], "command": "resize_pane", "args": {"orientation": "rows"} },
+
+
+    { "keys": ["ctrl+'"], "command": "pytest_toggle_panel" },
+
+    { "keys": ["ctrl+k"], "command": "move_to", "args": {"to": "hardeol", "extend": true }},
+    { "keys": ["ctrl+k"], "command": "chain", "args": { "commands":
+[ ["move_to",{"to":"hardeol","extend":true}], ["cut"] ] } },
+    // { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+
+
+    // all default ctrl
+    { "keys": ["ctrl+space", "ctrl+v"], "command": "paste_from_history" },
+    { "keys": ["ctrl+space", "ctrl+d"], "command": "find_under_expand_skip" },
+    { "keys": ["ctrl+space", "ctrl+up"], "command": "new_pane" },
+    { "keys": ["ctrl+space", "ctrl+shift+up"], "command": "new_pane", "args": {"move": false} },
+    { "keys": ["ctrl+space", "ctrl+down"], "command": "close_pane" },
+    { "keys": ["ctrl+space", "ctrl+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["ctrl+space", "ctrl+right"], "command": "focus_neighboring_group" },
+    { "keys": ["ctrl+space", "ctrl+shift+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["ctrl+space", "ctrl+shift+right"], "command": "move_to_neighboring_group" },
+    { "keys": ["ctrl+space", "ctrl+u"], "command": "upper_case" },
+    { "keys": ["ctrl+space", "ctrl+l"], "command": "lower_case" },
+    { "keys": ["ctrl+space", "ctrl+space"], "command": "set_mark" },
+    { "keys": ["ctrl+space", "ctrl+a"], "command": "select_to_mark" },
+    { "keys": ["ctrl+space", "ctrl+w"], "command": "delete_to_mark" },
+    { "keys": ["ctrl+space", "ctrl+x"], "command": "swap_with_mark" },
+    { "keys": ["ctrl+space", "ctrl+y"], "command": "yank" },
+    { "keys": ["ctrl+space", "ctrl+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+    { "keys": ["ctrl+space", "ctrl+g"], "command": "clear_bookmarks", "args": {"name": "mark"} },
+    { "keys": ["ctrl+l"], "command": "show_at_center" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //////////////////
+    // emacs catchall for ctrl+g also handles preferred "single selection" behavior
+    {"keys": ["ctrl+g"], "command": "sbp_quit", "args": {"favor_side": "start"},
+"context": [
+{"key": "sbp_catchall"},
+// inverse of all the "escape" key things found in Default plugin and elsewhere
+{ "key": "has_next_field", "operator": "equal", "operand": false },
+{ "key": "has_prev_field", "operator": "equal", "operand": false },
+{ "key": "panel_visible", "operator": "equal", "operand": false },
+{ "key": "overlay_visible", "operator": "equal", "operand": false },
+{ "key": "auto_complete_visible", "operator": "equal", "operand": false }
+        ]
+    },
+    {"keys": ["ctrl+g"], "command": "clear_fields",
+        "context": [{ "key": "has_next_field", "operator": "equal", "operand": true }]
+    },
+    {"keys": ["ctrl+g"], "command": "clear_fields",
+        "context": [{ "key": "has_prev_field", "operator": "equal", "operand": true }]
+    },
+    {"keys": ["ctrl+g"], "command": "hide_panel", "args": {"cancel": true},
+       "context": [{ "key": "panel_visible", "operator": "equal", "operand": true }]
+    },
+    {"keys": ["ctrl+g"], "command": "hide_overlay",
+        "context": [{ "key": "overlay_visible", "operator": "equal", "operand": true }]
+    },
+    {"keys": ["ctrl+g"], "command": "hide_popup",
+        "context": [{ "key": "popup_visible", "operator": "equal", "operand": true }]
+    },
+    {"keys": ["ctrl+g"], "command": "hide_auto_complete",
+        "context": [{ "key": "auto_complete_visible", "operator": "equal", "operand": true }]
+    },
+
+    // prevent default ctrl+g goto line command from running
+    {"keys": ["ctrl+g"], "command": "cancel",
+        "context": [{"key": "overlay_visible", "operator": "equal", "operand": true }]
+    },
+
+    // cancel isearch
+    { "keys": ["ctrl+g"], "command": "sbp_inc_search", "args": {"cmd": "quit"},
+        "context": [ {"key": "i_search_active"}, {"key": "panel_has_focus"} ]
+    },
+
+    { "keys": ["ctrl+g"], "command": "single_selection", "context":
+        [
+{ "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "clear_fields", "context":
+        [
+{ "key": "has_next_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "clear_fields", "context":
+        [
+{ "key": "has_prev_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "hide_panel", "args": {"cancel": true},
+        "context":
+        [
+{ "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "hide_overlay", "context":
+        [
+{ "key": "overlay_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "hide_popup", "context":
+        [
+{ "key": "popup_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+g"], "command": "hide_auto_complete", "context":
+        [
+{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+
+
+
+
+
+    // interesting defaults
+    // alt+shift+# o
+    // { "keys": ["ctrl+9"], "command": "focus_group", "args": { "group": 8 } },
+    // { "keys": ["ctrl+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+
+   { 
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cmd": "ipython",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+
+
+// Auto-pair quotes even after string modifiers.
+// Copied over from the default bindings with modifications to `preceding_text`
+// and an added selector condition.
+
+
+
+// { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "f\"$0\""}, "context":
+//     [
+//         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+//         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+//         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+//         // { "key": "preceding_text", "operator": "regex_contains", "operand": "(?i)\\b[bfru]+$", "match_all": true },
+//         { "key": "selector", "operator": "equal", "operand": "source.python" },
+//         { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single - punctuation.definition.string.end", "match_all": true }
+//     ]
+// },
+// 
+// 
+// 
+// { "keys": ["{"], "command": "insert_snippet", "args": {"contents": "{${1}:${2:7.3f}}"}, "context":
+//     [
+//         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+//         { "key": "selection_empty", "operator": "equal", "operand": true, "atch_all": true },
+//         { "key": "following_text", "operator": "regex_contains", "operand": "^[^\"]*\"", "match_all": true },
+//         { "key": "following_text", "operator": "regex_contains", "operand": "\"[^\"]*$", "match_all": true },
+//         { "key": "selector", "operator": "equal", "operand": "source.python" },
+//         { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single - punctuation.definition.string.end", "match_all": true }
+//     ]
+// },
+
+
+    // { "keys": ["ctrl+'","ctrl+'"], "command": "chain", "args": { "commands": [["fold_all"],["unfold"]] } },
+    { "keys": ["ctrl+'","ctrl+'"], "command": "unfold" },
+    { "keys": ["ctrl+'","ctrl+`"], "command": "unfold_all" },    
+    // { "keys": ["alt+ctrl+["], "command": "fold" },
+    // { "keys": ["alt+ctrl+]"], "command": "unfold" },
+    { "keys": ["ctrl+'", "ctrl+1"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["ctrl+'", "ctrl+2"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["ctrl+'", "ctrl+3"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["ctrl+'", "ctrl+4"], "command": "fold_by_level", "args": {"level": 4} },
+    // { "keys": ["ctrl+space+'", "ctrl+space+1"], "command": "unfold_by_level", "args": {"level": 1} },
+    // { "keys": ["ctrl+space+'", "ctrl+space+2"], "command": "unfold_by_level", "args": {"level": 2} },
+    // { "keys": ["ctrl+space+'", "ctrl+space+3"], "command": "unfold_by_level", "args": {"level": 3} },
+    // { "keys": ["ctrl+space+'", "ctrl+space+4"], "command": "unfold_by_level", "args": {"level": 4} }
+    // { "keys": ["ctrl+'", "ctrl+t"], "command": "fold_tag_attributes" }
+
+
+    { "keys": ["alt+="], "command": "goto_definition" },
+
+
+    { "keys": ["ctrl+alt+b"], "command": "set_build_system {\"index\": 0}" },
+    { "keys": ["ctrl+alt+k"], "command": "set_build_system {\"index\": 1}" },
+    { "keys": ["ctrl+alt+m"], "command": "set_build_system {\"index\": 2}" },
+    { "keys": ["ctrl+alt+,"], "command": "set_build_system {\"index\": 3}" },
+
+    { "keys": ["ctrl+alt+h"], "command": "exec", "args": { "cmd": ["/home/sheffler/rfdsym/ide/whs/change_build_file.py"]} }
+
+]

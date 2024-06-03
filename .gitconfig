@@ -1,7 +1,0 @@
-[user]
-	email = willsheffler@gmail.com
-	name = Will Sheffler
-[push]
-	default = simple
-[core]
-	editor = subl -n -w

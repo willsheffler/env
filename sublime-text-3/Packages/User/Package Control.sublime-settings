@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"debug": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ANSIescape",
+		"Auto Refresh",
+		"Colored Comments",
+		"fish",
+		"Git",
+		"Github Tools",
+		"JSONComma",
+		"JsonTree",
+		"LSP",
+		"LSP-bash",
+		"LSP-copilot",
+		"LSP-ruff",
+		"Multicommand",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"PyTest",
+		"PyYapf Python Formatter",
+		"RecentTabSort",
+		"SortBy",
+		"TabsExtra",
+		"Theme - Afterglow",
+		"TOML",
+		"YamlPipelines",
+	],
+}

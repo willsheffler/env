@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/transports.py", line 192, in invoke
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/sessions.py", line 2281, in on_transport_close
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 389, in on_post_exit_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/documents.py", line 245, in on_session_shutdown_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 87, in on_before_remove
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 132, in clear_view
+  File "/snap/sublime-text/156/opt/sublime_text/Lib/python38/sublime.py", line 3909, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/transports.py", line 192, in invoke
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/sessions.py", line 2281, in on_transport_close
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 389, in on_post_exit_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/documents.py", line 245, in on_session_shutdown_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 87, in on_before_remove
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 132, in clear_view
+  File "/snap/sublime-text/156/opt/sublime_text/Lib/python38/sublime.py", line 3909, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/transports.py", line 192, in invoke
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/sessions.py", line 2281, in on_transport_close
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 389, in on_post_exit_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/documents.py", line 245, in on_session_shutdown_async
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 87, in on_before_remove
+  File "/home/sheffler/.config/sublime-text-3/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 132, in clear_view
+  File "/snap/sublime-text/156/opt/sublime_text/Lib/python38/sublime.py", line 3909, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: 'NoneType' object is not iterable

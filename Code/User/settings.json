@@ -1,0 +1,12 @@
+{
+    "chatgpt.lang": "en",
+    "python.defaultInterpreterPath": "/home/sheffler/miniconda3/envs/rfd/bin/python",
+    "python.analysis.autoFormatStrings": true,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 12,
+    "editor.wordWrap": "on",
+    "terminal.integrated.inheritEnv": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    }
+}

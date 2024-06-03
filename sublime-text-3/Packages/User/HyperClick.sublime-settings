@@ -1,0 +1,14 @@
+// HyperClick Settings - User
+{
+  "selectors": [
+      "text.plain"
+   ],
+   "scopes": {
+      "text.plain":{
+         "regexes": [
+            "File \"(.+)\", line"
+         ],
+         "extensions": ["log"]
+      }
+   }
+}

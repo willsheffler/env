@@ -1,0 +1,19 @@
+ 
+{
+      "yapf_command": "yapf",
+      "use_entire_file_if_no_selection": true,
+      "on_save": false,
+      "onsave_ignore_fn_glob": ["*.pyx" ],
+      "popup_errors": true,
+      "config":{
+            "based_on_style": "pep8",
+            "INDENT_WIDTH": 4,
+            "COLUMN_LIMIT": 111,
+            "BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": false,
+            "BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION": 1
+
+      },
+      "use_stdin": true,
+      "debug": true
+
+}

@@ -1,5 +1,0 @@
-alias rm='rm -i'
-alias e='emacsclient -n'
-alias ll='ls -l'
-alias lla='ls -la'
-alias la='ls -a'
