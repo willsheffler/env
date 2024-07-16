@@ -1,5 +1,5 @@
 // Settings in here override those in "LSP-pyright/LSP-pyright.sublime-settings"
 
 {
-
+   "selector": ""
 }

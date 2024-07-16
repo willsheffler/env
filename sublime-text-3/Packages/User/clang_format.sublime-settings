@@ -1,4 +1,16 @@
 {
-	"binary": "clang-format",
-	"style": "File",
+    "binary": "clang-format",
+    "style": "File",
+    "languages":
+    [
+        "C",
+        "C++",
+        "C++11",
+        "JavaScript",
+        "Objective-C",
+        "Objective-C++",
+        "CUDA C++",
+        "Cuda",
+        "*.cu"
+    ]
 }

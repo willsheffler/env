@@ -20,8 +20,8 @@
         "dark_brown": "hsla(30, 30%, 30%, 1)",
         "magenta": "hsla(335, 100%, 75%, 1)",
         "light_gray": "#f6f6f6",
-        "dark_gray": "#333",
-        "black": "#222",
+        "dark_gray": "#222",
+        "black": "#000",
         "whitesmoke": "rgb(253, 253, 253)"
     },
     "globals":
@@ -41,7 +41,7 @@
         "shadow": "#bbb",
         "accent": "var(orange)",
         "misspelling": "var(dark_orange)",
-        "fold_marker": "var(yellow)",
+        "fold_marker": "var(yellow)"
     },
     "rules":
     [
@@ -61,12 +61,12 @@
         {
             "scope": "entity.name - entity.name.tag - entity.name.section",
             "foreground": "var(orange)",
-            "background": "#1e1e1e",
+            "background": "#1e1e1e"
         },
         {
             "scope": "entity.other.inherited-class",
             "foreground": "var(dark_orange)",
-            "background": "#1e1e1e",
+            "background": "#1e1e1e"
         },
         {
             "scope": "support.function.builtin, support.class.builtin, variable.language",
@@ -97,7 +97,7 @@
         },
         {
             "scope": "string",
-            "foreground": "var(brown)",
+            "foreground": "var(brown)"
         },
         {
             "scope": "punctuation.definition.string",
@@ -113,11 +113,11 @@
         },
         {
             "scope": "invalid.illegal",
-            "background": "var(red)",
+            "background": "var(red)"
         },
         {
             "scope": "invalid.deprecated",
-            "background": "var(red)",
+            "background": "var(red)"
         },
         // HTML
         {
@@ -186,6 +186,6 @@
         {
             "scope": "meta.table.header - punctuation",
             "font_style": "bold"
-        },
+        }
     ]
 }
